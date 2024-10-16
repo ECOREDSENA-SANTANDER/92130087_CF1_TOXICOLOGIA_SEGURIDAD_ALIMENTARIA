@@ -413,15 +413,166 @@
             td Enzima inhibida
           table
             tr
-              th Vulgar
-              td Get back to work. Learn from criticism. Creativity is a work-ethic. Design as if your life depended on it. Keep going. It isn’t what you are.
+              th Soja
+              td Tripsina, quimotripsina.
             tr
-              th Coloquial
-              td It isn’t what you are, but what you’re going to become. Don’t censor yourself.  Sterility leads to susceptibility.It is, in effect, conditioned to prefer bad design.
+              th Judía
+              td Tripsina, quimotripsina, elastasa, subtilisina.
             tr
-              th Convencional o estándar
-              td Paul Rand o
+              th Guisante
+              td Tripsina.
+            tr
+              th Cacahuete
+              td Tripsina, quimotripsina, plasmina, calicreína.
+            tr
+              th Avena
+              td Tripsina.
+            tr
+              th Arroz
+              td Tripsina.
+            tr
+              th Maíz
+              td Tripsina.
+            tr
+              th Trigo
+              td Tripsina.
+            tr
+              th Patata
+              td Papaína, tripsina, quimotripsina, carboxipeptidasa, elastasa, calicreína.
+    
+    .subt(data-aos='fade-right')
+      .row.align-items-center.mb-4
+        .col-auto
+          img(src='@/assets/curso/temas/t1/subt.png', alt='')
+        .col-auto.ps-0
+          h3.mb-0.pe-4.pe-lg-5 Inhibidores de carbohidrasas
+    
+    .row.bg2.mb-4
+      .col-lg-2
+        img(src='@/assets/curso/temas/t1/icono4.svg', alt='')
+      .col-lg-10
+        p Son sustancias que afectan a enzimas presentes en las secreciones digestivas. Se encuentran en leguminosas, en donde son inhibidores de la amilasa (enzima que cataliza la hidrólisis de polisacáridos como el almidón y el glucógeno). En la papa y en el maíz se han identificado inhibidores de la invertasa, que metaboliza la sacarosa. Las leguminosas y el trigo poseen antiamilasas con importante actividad sobre las enzimas digestivas. En los productos agrícolas como el plátano verde y el mango, que se consumen crudos, las antiamilasas presentes son más difíciles de destruir.
+    
+    .tarjeta.tarjeta--azul.p-4.mb-5
+      SlyderA(tipo="b")
+        .row
+          h4 Antivitaminas
+          p.mb-3 Son compuestos mayormente de naturaleza proteica que actúan sobre algunas vitaminas disminuyendo o destruyendo su función biológica, induciendo el aumento de las exigencias de las vitaminas. Entre las más importantes se encuentran la avidina, la tiaminasa, la niacitina y el ácido ascórbico oxidasa.
+          img(src='@/assets/curso/temas/t1/slyder5.png', alt='')
+        .row
+          h4 Avidina
+          p.mb-3 Se encuentra en la clara de huevo y es capaz de bloquear la absorción de la biotina (vitamina H o vitamina B8), por formación de un precipitado insoluble, afectando a su biodisponibilidad. La avidina es una glicoproteína que se combina con dos moléculas de biotina inhibiendo su absorción. Se inactiva por ebullición en agua en pocos minutos. El consumo excesivo de huevo de gallina crudo produce síntomas de falta de biotina con dermatitis exfoliativa y conjuntivitis.
+          img(src='@/assets/curso/temas/t1/slyder6.png', alt='')
+        .row
+          h4 Tiaminasa
+          p.mb-2 Está presente en animales como peces, moluscos, crustáceos y en vegetales como coles de bruselas, espinacas, remolacha, semillas de mostaza, fresas, café, té, entre otros. El efecto de la tiaminasa ha sido atribuido a la presencia de una serie de sustancias con estructura química variada, pero derivada de los hidroxifenoles. 
+          p.mb-3 Entre estos compuestos hay que señalar el ácido clorogénico presente en los granos verdes de café o el metilsinapato en las semillas de mostaza. El mecanismo de inactivación de la tiamina (vitamina B1) por parte de estos compuestos requiere oxígeno y es dependiente de la temperatura y del pH, siendo una reacción de oxido-reducción. La tiaminasa es termolábil, por ello se inactiva por cocción. Esta sustancia es la causante de muchos casos de parálisis y perturbaciones neurológicas.
+          img(src='@/assets/curso/temas/t1/slyder7.png', alt='')
+        .row
+          h4 Niacitina
+          p.mb-2 Se trata de una sustancia que se encuentra en el maíz. Es un precursor del ácido nicotínico o niacina (vitamina B3). En este compuesto el ácido se encuentra fuertemente acomplejado unido a un polipétido. Este complejo es resistente a las enzimas digestivas con lo que se impide la asimilación de la niacina.
+          p.mb-3 Sólo se libera tras la acción alcalina, de ahí que en países con dietas basadas casi exclusivamente en maíz como el caso de México, el cual utiliza una gran cantidad de maíz para hacer las “tortillas” típicas, tengan que tratar este producto con cal durante un tiempo para que se libere la niacina. La deficiencia de niacina produce pelagra que está asociada a alteraciones del sistema nervioso, trastornos digestivos, fatiga y problemas de piel. Esta antivitamina es inactivada por el calor.
+          img(src='@/assets/curso/temas/t1/slyder8.png', alt='')
+        .row
+          .col-md-7.mb-4.mb-md-0
+            h4 Ácido ascórbico oxidasa
+            p Esta enzima oxida el ácido ascórbico (vitamina c) por la presencia de oxígeno que es el que cataliza la oxidación. Se encuentra presente en muchos alimentos de origen vegetal, siendo activa en pH entre 4-6 y temperatura entre 15-30 °C. Su actividad se inhibe cuando el alimento es sometido a temperaturas más altas, por ejemplo cuando se escaldan los vegetales. Se encuentra en el pepino, calabaza, melón, col, tomate, lechuga, coliflor, espinaca, zanahoria, patata, guisantes, entre otras. También se puede evitar la acción de la antivitamina por el consumo rápido (tiempo transcurrido desde su preparación o después de abrir el envase) de los zumos de fruta. 
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/t1/slyder9.png', alt='')
+        .row
+          .col-md-7.mb-4.mb-md-0
+            h4 Sustancias que impiden la asimilación y metabolismo de minerales
+            p Estos componentes no causan ninguna toxicidad en circunstancias de consumo normal, pero sí pueden interferir en la absorción de minerales y metabólicamente esto puede ser de gravedad si se presentan problemas de malnutrición. Entre las sustancias más importantes dentro de este género se encuentran el ácido oxálico y el ácido fático.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/t1/slyder10.png', alt='')
+        .row
+          .col-md-7.mb-4.mb-md-0
+            h4 Acido oxálico
+            p.mb-2 Los oxalatos pueden fijar minerales como el hierro, magnesio, calcio y zinc, pero cuando forman sales con sodio y potasio e insolubles con metales divalentes como el calcio interfieren en su asimilación. Se encuentran en algunos alimentos de origen vegetal como en las espinacas, la remolacha, el cacao, las patatas, el té, el café, el ruibarbo y las acelgas.
+            p.mb-2 Sin duda el principal problema nutricional del oxalato deriva de su efecto negativo sobre la asimilación del calcio, principalmente en la fase en la cual el aporte de calcio es primordial como en el crecimiento y gestación, por lo cual se recomienda el consumo de alimentos ricos en calcio, como los productos lácteos, así como un aumento en la ingesta de vitamina D que ayuda a su asimilación.
+            p.mb-2 La intoxicación por ácido oxálico causa dolor abdominal y gastroenteritis y en algunos casos graves puede causar diarrea, vómitos, convulsiones, alteraciones en la coagulación y en estados finales se puede llegar al coma. En el aparato digestivo de los seres humanos hay bacterias que pueden digerir el ácido oxálico, lo que facilita cierta adaptación a productos ricos en este compuesto.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/t1/slyder11.png', alt='')
+        .row
+          .col-md-7.mb-4.mb-md-0
+            h4 Ácido fítico
+            p.mb-2 Este ácido impide la absorción de calcio, magnesio, hierro, cobre y zinc, además de afectar la utilización proteica por la formación de complejos insolubles. Se encuentra especialmente en cereales, leguminosas y semillas oleaginosas, trigo, maíz, arroz, avena, lenteja, soja, cacahuete y nuez. En los cereales se halla en la parte exterior, que es donde está su gran contenido en fitatos, por ejemplo en productos como el salvado, harinas, pan y pastas. Se han registrado casos de retrasos en el crecimiento y maduración sexual en niños cuya dieta se basa fundamentalmente en la ingesta de pan integral total. No obstante, la reducción en la biodisponibilidad mineral se puede contrarrestar en cierta medida incrementando la ingesta de minerales esenciales y gracias al aporte suficiente de mineral existente en la mayor parte de semillas.
+            p En muchos alimentos, los niveles de fitatos pueden ser reducidos por la enzima fosfatasa, que se encuentra presente en los alimentos ricos en ácido fítico con mayor o menor actividad. Gracias a la actividad de esta enzima el ácido se hidroliza liberándose inositol y fosfato orgánico. Esta enzima presenta una actividad máxima a pH 5,5 y 60°C, con lo cual el tratamiento del alimento con ácido y/o calor favorece su hidrólisis, y gracias a ello el contenido de este ácido se reduce drásticamente durante el proceso de cocción. Las fitasas son inhibidas por cocción a más de 60 °C,por fermentación del pan con levadura química (bicarbonato) que provoca aumento de pH y por la germinación.
+          .col-md-5
+            .row.bg3.mb-3
+              p Por otra parte, el ácido fítico tiene algunos efectos beneficiosos para el organismo, tales como:
+            .row.bg9.mb-3
+              ul.lista-ul--color
+                li 
+                  i.lista-ul__vineta
+                  | #[b Efecto antioxidante:] inhibe la oxidación de lípidos y la acumulación de peróxidos en los alimentos.
+            .row.bg9.mb-3
+              ul.lista-ul--color
+                li 
+                  i.lista-ul__vineta
+                  | #[b Disminuye la glucemia:] se une a las amilasas intestinales disminuyendo la liberación de azúcares simples.
 
+    .subt(data-aos='fade-right')
+      .row.align-items-center.mb-4
+        .col-auto
+          img(src='@/assets/curso/temas/t1/subt.png', alt='')
+        .col-auto.ps-0
+          h3.mb-0.pe-4.pe-lg-5 Sustancias bociógenas
+
+    p.mb-4 Estas sustancias impiden la absorción de yodo por parte de la glándula tiroides. Según su modo de acción las sustancias bociógenas se pueden clasificar en:
+
+    .row.mb-4
+      .col-lg-4
+        img(src='@/assets/curso/temas/t1/img15.svg', alt='')
+      .col-lg-5.ps-lg-0
+        .br-l.bg1.h-100.d-flex.align-items-center
+          .row.mb-3
+            h4.bgtitulo1.mb-3.py-1.ps-3.pe-5 Sustancias que inhiben la síntesis de tiroxina
+            p Un ejemplo de este mecanismo de acción, son las tioxazolidinas como la Goitrina resultante de la hidrólisis del tioglucósido progoitrina presente en vegetales del género Brassica como coliflor, col, nabo. Para mejorar la acción biciógena se requiere la administración de la hormona tiroxina.
+            h4.bgtitulo1.mb-3.py-1.ps-3.pe-5 Sustancias que inhiben la síntesis de tiroxina
+            p Esto se realiza por mecanismos no demasiado conocidos como por parte de compuestos como los tiocianatos, isotiocianatos y compuestos fenólicos. Los síntomas mejoran con la administración de yodo. 
+      .col-lg-3
+        img(src='@/assets/curso/temas/t1/img16.png', alt='')
+    
+    h3.bgtitulo2 Sustancias de actividad polivalente
+
+    p.mb-4 A estas sustancias se les asignan propiedades antinutritivas sobre nutrientes de distinta naturaleza: proteínas, minerales y vitaminas. Existen dos grandes grupos: las fibras y los taninos.
+    
+    .tarjeta--container.row.mb-4(data-aos="fade-down")
+      .col-md.tarjeta.bg3.p-4.p-lg-5
+        .row.align-items-end.mb-4
+          .col-3.col-lg-2
+            img.mb-2(src='@/assets/curso/temas/t1/tarjeta1.svg', alt='')
+          .col-9
+            h3.bgtitulo1.mb-3.py-1.ps-3.pe-5 Fibras
+        p.mb-2 La acción antinutritiva de las fibras se manifiesta a dos categorías. Por una parte, contribuyen a una endógena de proteínas, grasas e hidratos de carbono porque aumentan el volumen de la fracción no digerible (por acción trófica del epitelio digestivo) y además aumentan indirectamente las necesidades nitrogenadas del organismo. En segundo lugar, reduce la disponibilidad digestiva de minerales ya que disminuyen la absorción de Hierro, calcio, zinc y cobre.
+        p Las fibras se dividen en solubles (gomas, mucílagos y pectinas) e insolubles (lignina, celulosa, hemicelulosa). A pesar de algunos efectos indeseables, la función nutricional de la fibra es notable, ya que limita la transformación de algunos ácidos biliares en derivados cancerígenos por parte de las bacterias digestivas.
+      .col-md.tarjeta.bg4.p-4.p-lg-5
+        .row.align-items-end.mb-4
+          .col-3.col-lg-2
+            img.mb-2(src='@/assets/curso/temas/t1/tarjeta2.svg', alt='')
+          .col-9
+            h3.bgtitulo1.mb-3.py-1.ps-3.pe-5 Taninos
+        p.mb-2 Son sustancias fenólicas que se pueden diluir en agua y tienen la capacidad de precipitar alcaloides y proteínas, que dan las reacciones características de los fenoles. Están presentes en leguminosas como habas, alubias, guisantes y en muchas frutas como el banano, fundamentalmente cuando aun no están maduras; también se han identificado en el café, té, cacao y sorgo. Los efectos antinutritivos de estos compuestos se manifiestan en varios niveles:
+        ul.lista-ul--color
+          li 
+            i.lista-ul__vineta
+            | Por su carácter polivalente se relacionan con la capacidad de formar complejos con las proteínas, disminuyendo su digestión y aumentando el nivel de nitrógeno fecal.
+          li 
+            i.lista-ul__vineta
+            | Tiene capacidad de unirse a iones di y trivalentes como hierro, cobre y calcio, disminuyendo su disponibilidad.
+          li 
+            i.lista-ul__vineta
+            | Se pueden designar como antivitaminas porque reducen las reservas de vitamina B12 al agruparse con ella.
+          li 
+            i.lista-ul__vineta
+            | Pueden disminuir las reservas hepáticas de vitamina A. 
+            
+              
+        
 
 
 
