@@ -141,7 +141,7 @@ export default {
           },
           {
             numero: '4.5',
-            titulo: 'Toxinas del fusarium(tricotecenos)',
+            titulo: 'Toxinas del fusarium (tricotecenos)',
             hash: 't_4_5',
           },
           {

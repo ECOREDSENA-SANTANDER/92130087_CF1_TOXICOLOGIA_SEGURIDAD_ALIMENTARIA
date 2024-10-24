@@ -21,13 +21,13 @@
     
     .bg2.p-4.mb-5(data-aos="fade")
       .row.justify-content-center.align-items-center
-        .col-lg-2
+        .col-lg-2.col-md-5.col-8.mb-3.mb-lg-0
           img.m-auto.w-75(src='@/assets/curso/temas/t4/img2.svg', alt='')
         .col-lg-10 
-          p Desde el punto de vista tóxico, son una variedad de compuestos altamente tóxicos que provienen del metabolismo secundario de los hongos filamentosos, y son producidos en diferentes sustratos bajo ciertas condiciones climatológicas, en general son mutagénicas y carcinogénicas, provocando alteraciones en la permeabilidad celular e interfiriendo en el metabolismo (glucogénesis, lípidos).
+          p.mb-0 Desde el punto de vista tóxico, son una variedad de compuestos altamente tóxicos que provienen del metabolismo secundario de los hongos filamentosos, y son producidos en diferentes sustratos bajo ciertas condiciones climatológicas, en general son mutagénicas y carcinogénicas, provocando alteraciones en la permeabilidad celular e interfiriendo en el metabolismo (glucogénesis, lípidos).
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-lg-7
+      .col-lg-5
         .titulo-sexto.color-acento-contenido
           h5 Tabla 6. 
           span Micotoxicosis
@@ -64,8 +64,8 @@
               td.fw-bold Claviceps
               td Alcaloides
 
-    .row.justify-content-center.mb-5(data-aos="fade")
-      .col-lg-5
+    .row.justify-content-center(data-aos="fade")
+      .col-lg-5.mb-3.mb-lg-0
         .tarjeta.bg1.h-100.p-4
           p Se han descrito un número muy elevado de micotoxinas, entre las que destacan por su incidencia en los alimentos y sus efectos no deseables sobre los seres vivos:
           .row
@@ -88,7 +88,7 @@
                 li
                   i.fas.fa-check-circle
                   | Patulina.
-      .col-lg-3
+      .col-lg-3.d-none.d-lg-block
         .bg6.h-100.d-flex.align-items-center
           img.m-auto(src='@/assets/curso/temas/t4/img3.svg', alt='')
       .col-lg-4
@@ -113,8 +113,8 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.2. Aflatoxinas
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7(data-aos="fade-right")
+    .row.justify-content-center.align-items-center
+      .col-lg-7.mb-3.mb-lg-0(data-aos="fade-right")
         p Las aflatoxinas son compuestos policíclicos. Gracias a un estudio realizado mediante luz UV se detectaron sus características fluorescentes verde y azul, y las llamaron B1, B2, G1 y G2. De ellas la más tóxica es la Aflotoxin B1. Este moho puede proliferar en los alimentos a una temperatura de 27 ºC y a un AW (actividad del agua) de 0,85 superior. El metabolismo de la aflatoxina B1 se ha estudiado en múltiples especies bajo diferentes condiciones. La aflatoxina B1 se transforma en menos de 7 metabolitos. Uno de los más habituales es el metabolito M1 que se encuentra en la leche de vaca. Se ha cuantificado en un 1% la transformación de B1 en M1.
         .tarjeta.bg7.p-4
           ul.lista-ul--color.fa-ul.color-secundario
@@ -139,12 +139,46 @@
 
     p.mb-4 Son metabolitos producidos principalmente por especies de Aspergillus y Penicillium. La micotoxina más importante es la OTA, llamada Ocratoxina A. La contaminación con OTA se ha observado en granos de cereales y granos de café verde, productos de carne fermentada y vinos.
 
+    .row.justify-content-center(data-aos="fade-down")
+      .col-lg-5
+        img.mb-4(src='@/assets/curso/temas/t4/fig-44.svg', alt='')
+        .tabla-b.color-acento-contenido.mb-5
+          table.text-center
+            caption Fuente: SENA (2012)
+            tr.fw-bold
+              td.bg-white Ocratoxina
+              td.bg9 X
+              td.bg9 R
+            tr
+              td.fw-bold A
+              td α
+              td H
+            tr
+              td.fw-bold B
+              td H
+              td H
+            tr
+              td.fw-bold C
+              td α
+              td 
+                span CH#[sub 2] - CH#[sub 3]
+        .tabla-b.color-acento-contenido
+          table.text-center
+            tr
+              td.bg-color-acento-contenido.h4 Climas cálidos tropicales
+              td.bg-color-acento-contenido.h4 Climas templados
+            tr.bg-white
+              td Aspergillus ochraceus
+              td Penicillium verucosum
+            tr.text-center.bg9
+              td(colspan="2") Aspergillus ostanius 
+
 
     Separador
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.4. Nefrotóxicos
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/t4/img4.png')})`}")
       .bloque-texto-g__texto.p-4
@@ -153,7 +187,93 @@
 
     Separador
     #t_4_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 4.5. Toxinas del fusarium(tricotecenos)
+      h2 4.5. Toxinas del fusarium (tricotecenos)
+
+    .row.justify-content-center(data-aos="fade-down")
+      .col-lg-6.mb-4
+        img.mb-4(src='@/assets/curso/temas/t4/fig-45-1.svg', alt='')
+        .tabla-b.color-acento-contenido.mb-5
+          table.text-center
+            caption Fuente: SENA (2012)
+            tr.fw-bold
+              td.bg-white Tricoteceno
+              td.bg9 w
+              td.bg9 x
+              td.bg9 y
+              td.bg9 z
+            tr
+              td.fw-bold.text-start Toxina T-2
+              td CH#[sub 3]COO-
+              td CH#[sub 3]COO-
+              td -H
+              td (CH#[sub 3])#[sub 2]CHCOO-
+            tr.bg-white
+              td.fw-bold.text-start Diacetoxiscirpenol
+              td CH#[sub 3]COO-
+              td CH#[sub 3]COO-
+              td -H
+              td -H
+            tr
+              td.fw-bold.text-start Dioxinivalenol
+              td -H#[sub 2]
+              td -OH
+              td -OH
+              td =O
+            tr.bg-white
+              td.fw-bold.text-start Nivalenol
+              td -OH
+              td -OH
+              td -OH
+              td =O
+      .col-lg-6.mb-4
+        img.mb-4(src='@/assets/curso/temas/t4/fig-45-2.svg', alt='')
+        .tabla-b.color-acento-contenido.mb-5
+          table.text-center
+            caption Fuente: SENA (2012)
+            tr.fw-bold
+              td.bg-white Cearalenona y derivados	
+              td.bg9 R
+              td.bg9 R
+              td.bg9 R
+            tr
+              td.fw-bold.text-start Cearalenona
+              td =O
+              td H
+              td H
+            tr.bg-white
+              td.fw-bold.text-start 8'-hidroxicearalenona
+              td =O
+              td OH
+              td H
+            tr
+              td.fw-bold.text-start 5'-formilcearalelona
+              td =O
+              td H
+              td CHO
+            tr.bg-white
+              td.fw-bold.text-start 6',8'-dihidroxicearalenona
+              td OH
+              td OH
+              td H
+            tr
+              td.fw-bold.text-start Cearalenol
+              td OH
+              td H
+              td H
+
+    .row.justify-content-center.align-items-center
+      .col-lg-5.mb-3.mb-lg-0(data-aos="fade-right")
+        img(src='@/assets/curso/temas/t4/img10.png', alt='')
+      .col-lg-7(data-aos="fade-right")
+        .bg1
+          .bloque-texto-d.p-4.py-3.mb-4
+            .bloque-texto-d__texto.mb-2
+              i.fas.fa-quote-left
+              h4 El deoxinivalenol (DON), que es probablemente la micotoxina de Fusarium más corriente, contamina diversos cereales, especialmente el maíz y el trigo tanto en países desarrollados como en desarrollo.
+              i.fas.fa-quote-right
+            .bloque-texto-d__autor 
+              p.mb-0 (FAO 2003)
+        p Por su parte la toxina T2 parece ser la responsable de Aleucia Tóxica Alimentaria (ATA), frecuente en Rusia (Siberia, 1913; Urales, 1944) debido a las bajas temperaturas que necesita para desarrollarse. Esta toxina causa atrofia de la médula ósea, angina necrótica y muerte. No se puede diferenciar la toxicidad de la toxina T-2 de su metabolito, por tanto, en parte la toxicidad probablemente sea debida a éste. Por ello también se ha incluido en la ingesta tolerable provisional diaria establecida en 60 mg/kg peso corporal/día.
 
 
     Separador
@@ -164,10 +284,10 @@
     p Las intoxicaciones por cornezuelo de centeno, llamada también ergotismo, son debidas al consumo de pan de centeno infectado por Claviceps.
     
     .row.justify-content-center(data-aos="fade-down")
-      .col-lg-4
+      .col-lg-4.col-md-10.pe-lg-0
         .bg8.h-100.p-4.d-flex.align-items-center
           img(src='@/assets/curso/temas/t4/img6.svg', alt='')
-      .col-lg-5
+      .col-lg-5.col-md-10.ps-lg-0
         .bg1.p-4.py-lg-5.h-100
           .bgtitulo1.p-2.mb-3
             h4.mb-0 Ergotismo
@@ -178,7 +298,7 @@
             li
               i.fas.fa-check-circle
               span.mb-0 #[b Ergotismo convulsivo:] alteraciones neurológicas, ceguera, parálisis y convulsiones.
-      .col-lg-3
+      .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/t4/img7.png', alt='')
 
 
@@ -187,16 +307,17 @@
       h2 4.7. Otras micotoxinas
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5(data-aos="fade-right")
+      .col-lg-5.d-none.d-lg-block(data-aos="fade-right")
         img(src='@/assets/curso/temas/t4/img8.png', alt='')
       .col-lg-7(data-aos="fade-right")
         .row.justify-content-center.align-items-center.mb-4
-          .col-lg-2
+          .col-lg-2.col-md-2.col-9.mb-3.mb-lg-0
             img(src='@/assets/curso/temas/t4/img9.svg', alt='')
-          .col-lg-10
+          .col-lg-10.col-md-10
             p.mb-0 La patulina se encuentra en frutas, verduras, cereales y piensos. Al parecer podría provocar alteración de la barrera de las células del epitelio intestinal induciendo daños y degeneración, hemorragias e inflamación. Se ha demostrado carcinogénesis en ratas y teratogenia en pollos.
-        .cajon.color-primario.p-4.mb-4
+        .cajon.color-primario.bg1.p-4.mb-4
           p.mb-0 Un indicador de la mala práctica de fabricación sería el uso de materias primas florecidas (germinadas). Las temperaturas moderadas, elevada humedad y pH bajo son factores que favorecen el crecimiento de estos hongos implicados en la formación de la patulina.
+
 
 </template>
 

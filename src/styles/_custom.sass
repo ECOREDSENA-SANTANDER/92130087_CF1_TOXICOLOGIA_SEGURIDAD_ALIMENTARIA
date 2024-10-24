@@ -35,11 +35,16 @@
   color: $color-primario
 .lista-ul--color.color-secundario li > i:first-of-type  
   color: $color-secundario       
+.lista-ul--color.color-2 li > i:first-of-type  
+  color: #1F6F7A   
 .bg-color-acento-contenido
   background-color: $color-acento-contenido
+.w-fit
+  width: fit-content
+
 
 .bg1
-  background-color: #D6F1F4 
+  background-color: #D6F1F4 !important
 .bg2
   background-color: #FEE9E9 
 .bg3
@@ -56,9 +61,27 @@
 .bg8
   background-color:#F6F0CA
 .bg9
+<<<<<<< Updated upstream
   background-color:#FDDADB
   border-radius: 30px
 
+=======
+  background-color: #F6F6F6
+.bg10
+  background-color:#ADE3EA
+.bg11
+  background-color:#EAF3F0
+.bg12
+  background-color:#F3FBFC
+.bg13
+  background-color:#E6F7F9
+.bg14
+  background-color:#33B9CB
+.bg15
+  background-color:#CCE2DA
+.bg16
+  background-color: #FCEDB6 
+>>>>>>> Stashed changes
 
 .bgtitulo1
   width: fit-content
@@ -68,11 +91,10 @@
   background-color: #FCEDB6 
   border-radius: 30px
 .bgtitulo3
-  width: fit-content
-  background-color: #FFFFFF 
+  background-color: #FFF
 
 .bgc-1
-  //background-image: url("../assets/curso/temas/t1/bgc1.png")
+  background-image: url("../assets/curso/temas/t3/fondo.png")
   background-position: center
   background-size: 100% 100%
   background-repeat: no-repeat
@@ -84,6 +106,11 @@
   @media screen and (max-width: 767px)
     margin-inline: -1.4rem  
     background-size: cover 
+.bgc-slider
+  background-image: url("../assets/curso/temas/t4/fondo-slider.png")
+  background-position: center
+  background-size: 100% 100%
+  border-radius: 30px
 
 
 .subt
@@ -102,6 +129,82 @@
   img, h3
     z-index: 999 
     position: relative 
+  @media (min-width: $bp-min-sm) and (max-width: $bp-max-md)
+    &::before
+      height: 80%
+    img
+      width: 75%  
+  @media (max-width: $bp-max-xs)
+    &::before
+      height: 100%
+    img
+      width: 100% 
+
+.flecha
+  padding: 0px 10px
+  font-size: 35px
+
+.tabla-b table
+  min-width: 300px
+  td
+    border: 1px solid #AFAFAF
+    padding: 15px 19px
+  td.bg-color-acento-contenido
+    border: 1px solid #F8D348
+.bloque-texto-d
+  border-top: 0px
+  i 
+    color: #F54749
+.t1.linea-tiempo-d .tarjeta
+  background-color: #EAF3F0
+.t1 .linea-tiempo-d__item--selected .tarjeta
+  background-color: #FDF4D1
+.t1 .tarjeta--boton.color-secundario
+  background-color: #D6F1F4
+  &:hover
+    background-color: #FBB5B6
+.slyder-a__tipo-b .slyder-a__btn--atrs, .slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #9C00CB
+  color: #FFF
+.slyder-a__bullets__item
+  @media (max-width: $bp-max-md)
+    margin: 0px 3px
+.slyder-a__bullets__item--active
+  background-color: #F8D348 !important
+  border-color: #F8D348
+.slyder-a__bullets__item
+  background-color: #FDF0BF
+  border-color: #FDF0BF
+.tabs-c__header
+  margin-bottom: 0px
+.tabs-c.color-acento-contenido .tabs-c__tab--active
+  font-weight: bold
+.tabs-c
+  border-color: #F5F9F7
+.acordion__accion__btn--a
+  background-color: #9C00CB
+  i 
+    color: #FFF
+.acordion
+  .tarjeta
+    background-color: #FDDADB
+  &__activo 
+    background-color: #ADE3EA !important
+.tabs-a__tab 
+  background-color: #F8D348
+.fle-circulo .slyder-f__btn i
+  font-size: 1rem
+  background-color: #9C00CB
+  height: 46px
+  width: 46px
+  padding: 5px
+  border-radius: 500px
+  color: #FFF
+  display: flex
+  justify-content: center
+  align-items: center
+.tabs-b
+  border-bottom: 0px
 
 
 // TARJETA HOVER    

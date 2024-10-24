@@ -1,5 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="152.378" height="145.207" viewBox="0 0 152.378 145.207">
+<<<<<<< Updated upstream
   <g id="Grupo_1102903" data-name="Grupo 1102903" transform="translate(-180 -1090.4)">
+=======
+  <g id="Grupo_1102903" data-name="Grupo 1102903" transform="translate(-180 -1090.401)">
+>>>>>>> Stashed changes
     <rect id="Rectángulo_402895" data-name="Rectángulo 402895" width="152.378" height="145.207" transform="translate(180 1090.401)" fill="#ebf8fa"/>
     <g id="Grupo_1103646" data-name="Grupo 1103646" transform="translate(173.152 1105.77)">
       <path id="Trazado_914872" data-name="Trazado 914872" d="M179.777,253.673c-1.513-17.155-25.234-10.75-36.1-2.7-4.747,4.668-5.038,14.1-.691,18.45s9.978,4.544,15.447,2.317a10.884,10.884,0,0,1,8.336,0,15.751,15.751,0,0,0,15.091-2.611A12.866,12.866,0,0,0,179.777,253.673Z" transform="translate(-86.288 -183.506)" fill="#d8ab8c"/>
