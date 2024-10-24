@@ -8,13 +8,13 @@
       h1 Antinutrientes
 
     .row
-      .col-lg-5.d-none.d-lg-block(data-aos="fade-right")
+      .col-lg-5(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/img1.png', alt='')
       .col-lg-7(data-aos="fade-left")
         .row.mb-3
-          .col-lg-2.col-md-2.col-3
+          .col-lg-2
             img(src='@/assets/curso/temas/t1/manzana.svg', alt='')
-          .col-lg-10.col-md-10.col-9
+          .col-lg-10
             p Los antinutrientes, son sustancias que pueden producir problemas nutricionales y de salud al ser humano que las consume regularmente, por cuanto disminuyen o impiden la capacidad de asimilación de nutrientes. 
         p Se introdujeron en la alimentación humana, a través de los cultivos para proteger semillas de plagas principalmente. Estas sustancias deben ser transformadas para evitar problemas de salud, por lo cual, a lo largo de los años, el ser humano fue desarrollando técnicas para eliminarlas o transformarlas sin embargo hoy en día, estas prácticas están en su mayoría perdidas.
         .cajon.color-primario.bg1.p-4.mb-4
@@ -25,22 +25,22 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.1. Toxicología  
     
-    .row.justify-content-center.mb-4
-      .col-lg-1.col-md-2.col-5.mb-3.mb-lg-0
+    .row.mb-4
+      .col-lg-1
         img(src='@/assets/curso/temas/t1/icono.svg', alt='')
-      .col-lg-11.col-md-10
+      .col-lg-11
         p Puede definirse como el estudio de los efectos adversos de sustancias extrañas en los organismos vivos; se basa en conocimientos químicos y biológicos, con el objetivo de hallar explicaciones detalladas a los efectos tóxicos. Uno de los conceptos fundamentales de la toxicología es que sólo la dosis, como observó Paracelso (1943-1541) “todas las sustancias son venenosas; no hay ninguna que no sea tóxica. La dosis es lo que diferencia al veneno del remedio”. 
     
     .row.align-items-center.mb-4
       .col-lg-9(data-aos="fade-right")
-        .row.justify-content-center
-          .col-lg-5.col-md-10.pe-lg-0
+        .row
+          .col-lg-5.pe-lg-0
             img(src='@/assets/curso/temas/t1/img3.svg', alt='')
-          .col-lg-7.col-md-10.ps-lg-0
+          .col-lg-7.ps-lg-0
             .bg1.p-4.h-100
               h4.bgtitulo1.mb-3.py-1.ps-3.pe-5 Por tanto, la respuesta a la pregunta ¿es esta sustancia tóxica?
               p Será siempre: si se toma una dosis suficiente para que lo sea. Por esta razón dos de los objetivos fundamentales de la toxicología son cuantificar e interpretar la toxicidad de las sustancias. 
-      .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
+      .col-lg-3(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img2.png', alt='')
     
     p.mb-4 Las curvas de frecuencia respuesta se obtienen a partir de cualquier serie de datos toxicológicos en los que se mide una respuesta cuantificable, registrando el porcentaje de individuos que responden a cada dosis menos el porcentaje de ellos que responden a cantidades menores. Este tipo de curvas presenta la forma típica de una distribución gaussiana. Además, las curvas ilustran de forma clara que hay una dosis media a la que responde de manera específica el mayor porcentaje de individuos. Siempre habrá quienes requieran porciones mayores o menores que la media para originar la misma respuesta. Los individuos que responden a dosis menores se denominan hipersensibles y los que responden a cantidades mayores se llaman hiposensibles.
@@ -65,17 +65,17 @@
           p.mb-0 Para establecer la NOEL se administra un rango de dosis suficientemente pequeña para originar respuesta. A medida que se acumula la dosis, el porcentaje de individuos de cada grupo experimental que responde sigue aumentando hasta que se alcanza una dosis, a partir de la cual responde el 100% de los miembros del grupo.
     
     .bg2.p-4.mb-4
-      .row.align-items-center.justify-content-center
-        .col-lg-2.col-md-4.col-7.mb-3.mb-lg-0
+      .row.align-items-center
+        .col-lg-2
           img(src='@/assets/curso/temas/t1/icono2.svg', alt='')
         .col-lg-10
           p.mb-0 La seguridad absoluta de una sustancia no puede explicarse puesto que la demostración ha de basarse en una evidencia negativa, es decir, en la falta de peligro o de daño debido a tal sustancia. Estadísticamente siempre existe la posibilidad que el experimento siguiente demuestre que el producto no es seguro. Así el concepto de seguridad se ha desarrollado con el transcurso del tiempo e inicialmente se podía considerar segura una sustancia si se consumía sin que ocasionase la muerte inmediata o una lesión aguda. Los conocimientos actuales de los efectos tóxicos y la capacidad de comprobarlos han aumentado hasta un punto, en el que se considera relativamente segura a una sustancia si no se producen efectos adversos en determinados efectos biológicos
     
     .row.mb-5(data-aos="fade-down")
-      .col-lg-5.mb-3.mb-lg-0
+      .col-lg-5
         .bg3.p-4.h-100
           p Dado que no se puede hablar de una seguridad absoluta, se debe hablar de seguridad relativa, definiendo las condiciones en que se evalúa tal seguridad. Una vez que se han definido los efectos tóxicos de una especie y las condiciones experimentales de la prueba, la toxicidad relativa de las sustancias se establece a menudo determinando las curvas de las dosis letales y comparándolas con las DL50.
-      .col-lg-3.d-none.d-lg-block
+      .col-lg-3
         img(src='@/assets/curso/temas/t1/img5.svg', alt='')
       .col-lg-4
         p.mb-0 La DL50 es un valor determinado estadísticamente y representa el valor de la dosis necesaria para producir la muerte del 50% de los organismos experimentales. El porcentaje de la DL50 debe acompañarse siempre de alguna cifra o valor de la estimación del error. El intervalo de probabilidad, o valor p, que es el más utilizado, acepta que debe ser menor de 0,05. Este valor indica que si se repitiesen 100 veces el experimento en 95 ocasiones se obtendría la misma DL50.
@@ -90,13 +90,13 @@
     
     .subt(data-aos='fade-right')
       .row.align-items-center.mb-4
-        .col-lg-auto.col-2
+        .col-auto
           img(src='@/assets/curso/temas/t1/subt.png', alt='')
-        .col-lg-auto.col-10.ps-0
+        .col-auto.ps-0
           h3.mb-0.pe-4.pe-lg-5 Limite Residual Crítico (LRM) Y Cantidad de Tóxico (IDA)
     
-    .row.justify-content-center.mb-5
-      .col-lg-5.col-md-10.mb-3.mb-lg-0
+    .row.mb-5
+      .col-lg-5
         img(src='@/assets/curso/temas/t1/img7.png', alt='')
       .col-lg-7
         p La identificación de los límites de seguridad, definidos como la certeza que no se producirá ningún daño si el producto se utiliza en determinadas condiciones. Estos son indicadores de vital importancia en la toxicología alimentaria. El límite residual crítico (LRM) es el valor del residuo mínimo que queda en el alimento tras su contacto con este siguiendo unas buenas prácticas de higiene, agrícolas y de procesamiento, siempre y cuando este valor sea inferior a su IDA.
@@ -104,7 +104,7 @@
 
     p.mb-4 Para el establecimiento del LRM y la IDA se requiere la realización de los siguientes estudios toxicológicos:
     
-    .row.justify-content-center.mb-4
+    .row.mb-4
       .col-lg-6(data-aos="fade-right")
         LineaTiempoD.color-acento-contenido.t1
           p(numero="1" titulo="Toxicidad aguda") (Establece una dosis única elevada).          
@@ -112,7 +112,7 @@
           p(numero="3" titulo="Genotoxicidad y mutagénesis") Estudian la capacidad que tienen algunas sustancias de alterar componentes genéticos (DNA). Leratogénesis analiza si la sustancia tiene capacidad para generar efectos tóxicos sobre el embrión o el feto.          
           p(numero="4" titulo="Carcinogénesis") Estudia si la sustancia puede dar lugar al desarrollo de tumores.
           p(numero="4" titulo="Sobre la reproducción") Estudia si la sustancia tiene capacidad para generar efectos sobre la fertilidad, la gestación y la descendencia. 
-      .col-lg-6.col-md-10(data-aos="fade-left")
+      .col-lg-6(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img8.png', alt='')
     
     p Todos estos estudios determinan que la inclusión de una nueva sustancia en el mercado sea lenta o rápida, siendo esta una forma de garantizar la inocuidad para los seres humanos. Normalmente estos estudios son llevados a cabo por organismos internacionales como el comité mixto de la FAO y OMS o la OCDE.
@@ -122,8 +122,8 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.2. Determinación de los tóxicos en los alimentos
 
-    .row.mb-5.justify-content-center
-      .col-lg-5.col-md-10.mb-3.mb-lg-0(data-aos="fade-right")
+    .row.mb-5
+      .col-lg-5(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/img9.png', alt='')
       .col-lg-7(data-aos="fade-left")
         p.mb-4 Para determinar la seguridad de los alimentos se debe hacer una estimación de sus compuestos tóxicos, y para interpretar correctamente los datos es fundamental el desarrollo de métodos analíticos seguros. En toxicología alimentaria, el análisis químico de los alimentos implica la separación del tóxico de los otros componentes de los alimentos y la estimación de su cantidad, a la vez del análisis de toxicidad a nivel experimental o ensayo para detectar el veneno, que consiste generalmente en el efecto tóxico observado.
@@ -132,23 +132,23 @@
 
     .subt(data-aos='fade-right')
       .row.align-items-center.mb-4
-        .col-lg-auto.col-md-2.col-2
+        .col-auto
           img(src='@/assets/curso/temas/t1/subt.png', alt='')
-        .col-lg-auto.col-md-10.col-10.ps-0
+        .col-auto.ps-0
           h3.mb-0.pe-4.pe-lg-5 Identificación del tóxico de acuerdo con sus propiedades fisicoquímicas
     
     .row.mb-5
       .col-lg-7(data-aos="fade-right")
         p Los análisis cualitativos y cuantitativos de los tóxicos en los alimentos son las actividades principales de la toxicología alimentaria. Cuando se descubre que un alimento presenta toxicidad, la primera tarea del analista es identificar las sustancias tóxicas responsables. La fase inicial es la identificación de la sustancia que va a analizarse. En el caso de las que son puras es relativamente sencillo, pero en el caso de mezclas complejas es más complicado. En este último caso se debe establecer la composición de la mezcla y determinar qué componentes de ella son responsables de la actividad biológica.
         p Primero se separan las sustancias del alimento y se analiza cada uno de ellos para comprobar su toxicidad. Cuando se ha identificado material tóxico se procede a realizar un análisis cuantitativo mediante una técnica analítica química creada para tal fin, luego se puede establecer su estructura por análisis químico utilizando técnicas analíticas como la espectroscopia ultravioleta (UV), espectroscopia de masa (MS), infrarrojo (IR) y de resonancia nuclear (NMR).
-      .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
+      .col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img10.png', alt='')
     
     h3.bgtitulo2.py-1.px-3 Análisis toxicológico
 
     p Este análisis comprende tres etapas:
 
-    .row.mb-5.justify-content-center.t1
+    .row.mb-5.t1
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-secundario.p-4.h-100
           .row.justify-content-center.mb-4
@@ -197,13 +197,13 @@
             p Cuando ingresa el tóxico en el organismo este se ve obligado a atravesar las membranas biológicas que son básicamente hidrófobas y muy liposolubles, lo que hace que sean atravesadas por sustancias lipídicas o grasas y no por sustancias hidrosolubles o ionizadas. 
             p Las sustancias atraviesan las membranas celulares por dos procesos fundamentales: Difusión (movimientos libres al azar producidos por moción cinética) y transporte activo (movimiento de las sustancias combinadas químicamente en la membrana con productos transportadores). La mayoría de las sustancias extrañas liposolubles se trasladan por difusión simple a través de las membranas hacia la bicapa lipídica. 
             p Otro mecanismo de transferencia del tóxico es atravesando la membrana mediante la filtración a través de los poros y la pinocitosis. Muchos iones disueltos en agua y ciertas sustancias hidrosolubles de pequeño peso molecular se expanden a través de los poros acuosos de la membrana celular. La velocidad de difusión de una sustancia a través de una membrana viene determinada por el tamaño o peso molecular, a mayor peso molecular mayor dificultad de penetrar. Por su forma, cuando el tóxico está dividido en partículas muy pequeñas tiene mayor facilidad de absorción; por su grado de ionización, donde las formas no ionizadas son las más liposolubles. Finalmente, por su liposolubilidad, que es una característica propia de cada sustancia y entre más liposoluble más fácilmente penetrará.       
-          .col-lg-3.col-md-6
+          .col-lg-3
             img(src='@/assets/curso/temas/t1/slyder1.png', alt='')
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-md-0
             h4 Distribución
             p El tóxico se traslada principalmente por la sangre y posteriormente a los diferentes tejidos donde ejercerá su acción o bien se acumulará. En las sustancias transportadas por los alimentos, el tracto digestivo es el lugar principal de absorción y el de las sustancias muy liposolubles es habitualmente la boca. En el intestino delgado es donde se adsorben la mayor parte de los nutrientes y de otras sustancias, donde la carga iónica de las sustancias juega un papel importante en su velocidad de absorción. Debido a que el pH del intestino delgado está próximo a la neutralidad, los ácidos y las bases fuertes presentan carga, por lo tanto se absorben menos que las sustancias neutras. La absorción del intestino delgado comparada con la del grueso, es relativamente pobre; sin embargo, el intestino delgado sirve de sitio de absorción de algunas sustancias, especialmente las producidas por la fermentación bacteriana en este órgano o las que son muy liposolubles.    
-          .col-lg-3.col-md-6
+          .col-lg-3
             img(src='@/assets/curso/temas/t1/slyder2.png', alt='')
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-md-0
@@ -212,14 +212,14 @@
             p El movimiento interorgánico de sustancias en propiedades de diversas membranas y por las uniones con los líquidos. Además, el grado de perfusión sanguínea tiene un importante papel en el desempeño de las sustancias.
             p El flujo sanguíneo total es mucho mayor en el hígado, riñón, músculo, cerebro y piel que en la grasa y en el hueso. Por tanto, los órganos con mayor flujo sanguíneo, es de esperar que contengan la mayor cantidad de sustancias en movimiento.
             p Las sustancias orgánicas más polares tienden a unirse a las proteínas sanguíneas y a los tejidos blandos, mientras que las orgánicas cuyas propiedades químicas son parecidas a las del calcio, suelen almacenarse en tejido óseo. Los tejidos sirven como acumuladores en la absorción de los materiales más liposolubles. El colágeno, la principal proteína del organismo, liga muchos iones, como calcio, bario, magnesio, estroncio, berilio, plomo, arsénico y mercurio. El hueso es el almacén de ciertos elementos inorgánicos, tales como el plomo y el estroncio. El hígado tiene gran afinidad para ligar ácidos orgánicos, colorantes y ciertos esteroides.    
-          .col-lg-3.col-md-6
+          .col-lg-3
             img(src='@/assets/curso/temas/t1/slyder3.png', alt='')
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-md-0
             h4 Eliminación
             p Se realiza a través de la excreción de las sustancias tóxicas o de los residuos de la biotransformación mediante la orina, bilis, heces, los líquidos orgánicos, está gobernada por las respiración (aire expirado) y otras como sudor, saliva, leche materna, entre otras.
             p La excreción urinaria es la más importante de las distintas rutas por las que pueden eliminarse del organismo las sustancias tóxicas consumidas en la dieta. Esto se aplica tanto al número, como a las cantidades de sustancias excretadas. La excreción fecal es importante para los compuestos que no se han absorbido en el tracto gastroentérico o que son secretados por la bilis. En las mujeres lactantes la excreción de sustancias con la leche desempeña cierto papel en la eliminación de productos tóxicos; algunos fármacos, ciertos plaguicidas y los agentes tóxicos de los alimentos enmohecidos se excretan en parte por la leche, sin embargo, hay que considerar en estos casos el impacto de las sustancias excretadas sobre el infante alimentado.
-          .col-lg-3.col-md-6
+          .col-lg-3
             img(src='@/assets/curso/temas/t1/slyder4.png', alt='')
     
     .subt(data-aos='fade-right')
@@ -349,10 +349,10 @@
                 i.fas.fa-check-circle
                 | Residuos de productos farmacológicos (antibióticos, betaagonistas, coccidiostatos, anabolizantes y antiparasitarios).
              
-    .row.justify-content-center(data-aos="fade")
-      .col-lg-1.col-md-2.col-6.mb-3.mb-md-0
+    .row(data-aos="fade")
+      .col-lg-1
         img(src='@/assets/curso/temas/t1/icono3.svg', alt='')
-      .col-lg-11.col-md-10
+      .col-lg-11
         p Las mayores intoxicaciones de interés en salud pública en los últimos años están relacionadas con la contaminación alimentaria por agentes tóxicos procedentes de la contaminación ambiental, donde se incluyen los plaguicidas, metales, hidrocarburos clorados, residuos de medicamentos, entre otros. Los primeros tres vehiculizados por la atmósfera, el suelo o las aguas, que contaminan los cultivos y directamente a los organismos vivos. Por otra parte, el último, es vehiculizado en la carne de los animales que son consumidos posteriormente.
     
 
@@ -373,14 +373,14 @@
         .col-auto.ps-0
           h3.mb-0.pe-4.pe-lg-5 Inhibidores enzimáticos
     
-    .row.justify-content-center.mb-4
-      .col-lg-5.d-none.d-lg-block(data-aos="fade-right")
+    .row.mb-4
+      .col-lg-5(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/img14.png', alt='')
       .col-lg-7(data-aos="fade-left")
-        .row.justify-content-center.mb-3
-          .col-lg-2.col-md-2.col-6
+        .row.mb-3
+          .col-lg-2
             img(src='@/assets/curso/temas/t1/icono4.svg', alt='')
-          .col-lg-10.col-md-10
+          .col-lg-10
             p Son sustancias que obstruyen con la actividad enzimática del sistema digestivo, inhibiendo concretamente las enzimas necesarias para la asimilación de nutrientes. Esto se traduce en un déficit de la digestión de proteínas y de carbohidratos.
         .bg2.p-4
           .row
@@ -408,109 +408,6 @@
               td.h4.text-center Alimento
               td.h4.text-center Enzima inhibida
             tr
-<<<<<<< Updated upstream
-              th Soja
-              td Tripsina, quimotripsina.
-            tr
-              th Judía
-              td Tripsina, quimotripsina, elastasa, subtilisina.
-            tr
-              th Guisante
-              td Tripsina.
-            tr
-              th Cacahuete
-              td Tripsina, quimotripsina, plasmina, calicreína.
-            tr
-              th Avena
-              td Tripsina.
-            tr
-              th Arroz
-              td Tripsina.
-            tr
-              th Maíz
-              td Tripsina.
-            tr
-              th Trigo
-              td Tripsina.
-            tr
-              th Patata
-              td Papaína, tripsina, quimotripsina, carboxipeptidasa, elastasa, calicreína.
-    
-    .subt(data-aos='fade-right')
-      .row.align-items-center.mb-4
-        .col-auto
-          img(src='@/assets/curso/temas/t1/subt.png', alt='')
-        .col-auto.ps-0
-          h3.mb-0.pe-4.pe-lg-5 Inhibidores de carbohidrasas
-    
-    .row.bg2.mb-4
-      .col-lg-2
-        img(src='@/assets/curso/temas/t1/icono4.svg', alt='')
-      .col-lg-10
-        p Son sustancias que afectan a enzimas presentes en las secreciones digestivas. Se encuentran en leguminosas, en donde son inhibidores de la amilasa (enzima que cataliza la hidrólisis de polisacáridos como el almidón y el glucógeno). En la papa y en el maíz se han identificado inhibidores de la invertasa, que metaboliza la sacarosa. Las leguminosas y el trigo poseen antiamilasas con importante actividad sobre las enzimas digestivas. En los productos agrícolas como el plátano verde y el mango, que se consumen crudos, las antiamilasas presentes son más difíciles de destruir.
-    
-    .tarjeta.tarjeta--azul.p-4.mb-5
-      SlyderA(tipo="b")
-        .row
-          h4 Antivitaminas
-          p.mb-3 Son compuestos mayormente de naturaleza proteica que actúan sobre algunas vitaminas disminuyendo o destruyendo su función biológica, induciendo el aumento de las exigencias de las vitaminas. Entre las más importantes se encuentran la avidina, la tiaminasa, la niacitina y el ácido ascórbico oxidasa.
-          img(src='@/assets/curso/temas/t1/slyder5.png', alt='')
-        .row
-          h4 Avidina
-          p.mb-3 Se encuentra en la clara de huevo y es capaz de bloquear la absorción de la biotina (vitamina H o vitamina B8), por formación de un precipitado insoluble, afectando a su biodisponibilidad. La avidina es una glicoproteína que se combina con dos moléculas de biotina inhibiendo su absorción. Se inactiva por ebullición en agua en pocos minutos. El consumo excesivo de huevo de gallina crudo produce síntomas de falta de biotina con dermatitis exfoliativa y conjuntivitis.
-          img(src='@/assets/curso/temas/t1/slyder6.png', alt='')
-        .row
-          h4 Tiaminasa
-          p.mb-2 Está presente en animales como peces, moluscos, crustáceos y en vegetales como coles de bruselas, espinacas, remolacha, semillas de mostaza, fresas, café, té, entre otros. El efecto de la tiaminasa ha sido atribuido a la presencia de una serie de sustancias con estructura química variada, pero derivada de los hidroxifenoles. 
-          p.mb-3 Entre estos compuestos hay que señalar el ácido clorogénico presente en los granos verdes de café o el metilsinapato en las semillas de mostaza. El mecanismo de inactivación de la tiamina (vitamina B1) por parte de estos compuestos requiere oxígeno y es dependiente de la temperatura y del pH, siendo una reacción de oxido-reducción. La tiaminasa es termolábil, por ello se inactiva por cocción. Esta sustancia es la causante de muchos casos de parálisis y perturbaciones neurológicas.
-          img(src='@/assets/curso/temas/t1/slyder7.png', alt='')
-        .row
-          h4 Niacitina
-          p.mb-2 Se trata de una sustancia que se encuentra en el maíz. Es un precursor del ácido nicotínico o niacina (vitamina B3). En este compuesto el ácido se encuentra fuertemente acomplejado unido a un polipétido. Este complejo es resistente a las enzimas digestivas con lo que se impide la asimilación de la niacina.
-          p.mb-3 Sólo se libera tras la acción alcalina, de ahí que en países con dietas basadas casi exclusivamente en maíz como el caso de México, el cual utiliza una gran cantidad de maíz para hacer las “tortillas” típicas, tengan que tratar este producto con cal durante un tiempo para que se libere la niacina. La deficiencia de niacina produce pelagra que está asociada a alteraciones del sistema nervioso, trastornos digestivos, fatiga y problemas de piel. Esta antivitamina es inactivada por el calor.
-          img(src='@/assets/curso/temas/t1/slyder8.png', alt='')
-        .row
-          .col-md-7.mb-4.mb-md-0
-            h4 Ácido ascórbico oxidasa
-            p Esta enzima oxida el ácido ascórbico (vitamina c) por la presencia de oxígeno que es el que cataliza la oxidación. Se encuentra presente en muchos alimentos de origen vegetal, siendo activa en pH entre 4-6 y temperatura entre 15-30 °C. Su actividad se inhibe cuando el alimento es sometido a temperaturas más altas, por ejemplo cuando se escaldan los vegetales. Se encuentra en el pepino, calabaza, melón, col, tomate, lechuga, coliflor, espinaca, zanahoria, patata, guisantes, entre otras. También se puede evitar la acción de la antivitamina por el consumo rápido (tiempo transcurrido desde su preparación o después de abrir el envase) de los zumos de fruta. 
-          .col-md-5
-            figure
-              img(src='@/assets/curso/temas/t1/slyder9.png', alt='')
-        .row
-          .col-md-7.mb-4.mb-md-0
-            h4 Sustancias que impiden la asimilación y metabolismo de minerales
-            p Estos componentes no causan ninguna toxicidad en circunstancias de consumo normal, pero sí pueden interferir en la absorción de minerales y metabólicamente esto puede ser de gravedad si se presentan problemas de malnutrición. Entre las sustancias más importantes dentro de este género se encuentran el ácido oxálico y el ácido fático.
-          .col-md-5
-            figure
-              img(src='@/assets/curso/temas/t1/slyder10.png', alt='')
-        .row
-          .col-md-7.mb-4.mb-md-0
-            h4 Acido oxálico
-            p.mb-2 Los oxalatos pueden fijar minerales como el hierro, magnesio, calcio y zinc, pero cuando forman sales con sodio y potasio e insolubles con metales divalentes como el calcio interfieren en su asimilación. Se encuentran en algunos alimentos de origen vegetal como en las espinacas, la remolacha, el cacao, las patatas, el té, el café, el ruibarbo y las acelgas.
-            p.mb-2 Sin duda el principal problema nutricional del oxalato deriva de su efecto negativo sobre la asimilación del calcio, principalmente en la fase en la cual el aporte de calcio es primordial como en el crecimiento y gestación, por lo cual se recomienda el consumo de alimentos ricos en calcio, como los productos lácteos, así como un aumento en la ingesta de vitamina D que ayuda a su asimilación.
-            p.mb-2 La intoxicación por ácido oxálico causa dolor abdominal y gastroenteritis y en algunos casos graves puede causar diarrea, vómitos, convulsiones, alteraciones en la coagulación y en estados finales se puede llegar al coma. En el aparato digestivo de los seres humanos hay bacterias que pueden digerir el ácido oxálico, lo que facilita cierta adaptación a productos ricos en este compuesto.
-          .col-md-5
-            figure
-              img(src='@/assets/curso/temas/t1/slyder11.png', alt='')
-        .row
-          .col-md-7.mb-4.mb-md-0
-            h4 Ácido fítico
-            p.mb-2 Este ácido impide la absorción de calcio, magnesio, hierro, cobre y zinc, además de afectar la utilización proteica por la formación de complejos insolubles. Se encuentra especialmente en cereales, leguminosas y semillas oleaginosas, trigo, maíz, arroz, avena, lenteja, soja, cacahuete y nuez. En los cereales se halla en la parte exterior, que es donde está su gran contenido en fitatos, por ejemplo en productos como el salvado, harinas, pan y pastas. Se han registrado casos de retrasos en el crecimiento y maduración sexual en niños cuya dieta se basa fundamentalmente en la ingesta de pan integral total. No obstante, la reducción en la biodisponibilidad mineral se puede contrarrestar en cierta medida incrementando la ingesta de minerales esenciales y gracias al aporte suficiente de mineral existente en la mayor parte de semillas.
-            p En muchos alimentos, los niveles de fitatos pueden ser reducidos por la enzima fosfatasa, que se encuentra presente en los alimentos ricos en ácido fítico con mayor o menor actividad. Gracias a la actividad de esta enzima el ácido se hidroliza liberándose inositol y fosfato orgánico. Esta enzima presenta una actividad máxima a pH 5,5 y 60°C, con lo cual el tratamiento del alimento con ácido y/o calor favorece su hidrólisis, y gracias a ello el contenido de este ácido se reduce drásticamente durante el proceso de cocción. Las fitasas son inhibidas por cocción a más de 60 °C,por fermentación del pan con levadura química (bicarbonato) que provoca aumento de pH y por la germinación.
-          .col-md-5
-            .row.bg3.mb-3
-              p Por otra parte, el ácido fítico tiene algunos efectos beneficiosos para el organismo, tales como:
-            .row.bg9.mb-3
-              ul.lista-ul--color
-                li 
-                  i.lista-ul__vineta
-                  | #[b Efecto antioxidante:] inhibe la oxidación de lípidos y la acumulación de peróxidos en los alimentos.
-            .row.bg9.mb-3
-              ul.lista-ul--color
-                li 
-                  i.lista-ul__vineta
-                  | #[b Disminuye la glucemia:] se une a las amilasas intestinales disminuyendo la liberación de azúcares simples.
-=======
               td Soja
               td Tripsina, quimotripsina.
             tr
@@ -537,73 +434,17 @@
             tr
               td Patata
               td Papaína, tripsina, quimotripsina, carboxipeptidasa, elastasa, calicreína.
->>>>>>> Stashed changes
 
     .subt(data-aos='fade-right')
       .row.align-items-center.mb-4
         .col-auto
           img(src='@/assets/curso/temas/t1/subt.png', alt='')
         .col-auto.ps-0
-<<<<<<< Updated upstream
-          h3.mb-0.pe-4.pe-lg-5 Sustancias bociógenas
-
-    p.mb-4 Estas sustancias impiden la absorción de yodo por parte de la glándula tiroides. Según su modo de acción las sustancias bociógenas se pueden clasificar en:
-
-    .row.mb-4
-      .col-lg-4
-        img(src='@/assets/curso/temas/t1/img15.svg', alt='')
-      .col-lg-5.ps-lg-0
-        .br-l.bg1.h-100.d-flex.align-items-center
-          .row.mb-3
-            h4.bgtitulo1.mb-3.py-1.ps-3.pe-5 Sustancias que inhiben la síntesis de tiroxina
-            p Un ejemplo de este mecanismo de acción, son las tioxazolidinas como la Goitrina resultante de la hidrólisis del tioglucósido progoitrina presente en vegetales del género Brassica como coliflor, col, nabo. Para mejorar la acción biciógena se requiere la administración de la hormona tiroxina.
-            h4.bgtitulo1.mb-3.py-1.ps-3.pe-5 Sustancias que inhiben la síntesis de tiroxina
-            p Esto se realiza por mecanismos no demasiado conocidos como por parte de compuestos como los tiocianatos, isotiocianatos y compuestos fenólicos. Los síntomas mejoran con la administración de yodo. 
-      .col-lg-3
-        img(src='@/assets/curso/temas/t1/img16.png', alt='')
-    
-    h3.bgtitulo2 Sustancias de actividad polivalente
-
-    p.mb-4 A estas sustancias se les asignan propiedades antinutritivas sobre nutrientes de distinta naturaleza: proteínas, minerales y vitaminas. Existen dos grandes grupos: las fibras y los taninos.
-    
-    .tarjeta--container.row.mb-4(data-aos="fade-down")
-      .col-md.tarjeta.bg3.p-4.p-lg-5
-        .row.align-items-end.mb-4
-          .col-3.col-lg-2
-            img.mb-2(src='@/assets/curso/temas/t1/tarjeta1.svg', alt='')
-          .col-9
-            h3.bgtitulo1.mb-3.py-1.ps-3.pe-5 Fibras
-        p.mb-2 La acción antinutritiva de las fibras se manifiesta a dos categorías. Por una parte, contribuyen a una endógena de proteínas, grasas e hidratos de carbono porque aumentan el volumen de la fracción no digerible (por acción trófica del epitelio digestivo) y además aumentan indirectamente las necesidades nitrogenadas del organismo. En segundo lugar, reduce la disponibilidad digestiva de minerales ya que disminuyen la absorción de Hierro, calcio, zinc y cobre.
-        p Las fibras se dividen en solubles (gomas, mucílagos y pectinas) e insolubles (lignina, celulosa, hemicelulosa). A pesar de algunos efectos indeseables, la función nutricional de la fibra es notable, ya que limita la transformación de algunos ácidos biliares en derivados cancerígenos por parte de las bacterias digestivas.
-      .col-md.tarjeta.bg4.p-4.p-lg-5
-        .row.align-items-end.mb-4
-          .col-3.col-lg-2
-            img.mb-2(src='@/assets/curso/temas/t1/tarjeta2.svg', alt='')
-          .col-9
-            h3.bgtitulo1.mb-3.py-1.ps-3.pe-5 Taninos
-        p.mb-2 Son sustancias fenólicas que se pueden diluir en agua y tienen la capacidad de precipitar alcaloides y proteínas, que dan las reacciones características de los fenoles. Están presentes en leguminosas como habas, alubias, guisantes y en muchas frutas como el banano, fundamentalmente cuando aun no están maduras; también se han identificado en el café, té, cacao y sorgo. Los efectos antinutritivos de estos compuestos se manifiestan en varios niveles:
-        ul.lista-ul--color
-          li 
-            i.lista-ul__vineta
-            | Por su carácter polivalente se relacionan con la capacidad de formar complejos con las proteínas, disminuyendo su digestión y aumentando el nivel de nitrógeno fecal.
-          li 
-            i.lista-ul__vineta
-            | Tiene capacidad de unirse a iones di y trivalentes como hierro, cobre y calcio, disminuyendo su disponibilidad.
-          li 
-            i.lista-ul__vineta
-            | Se pueden designar como antivitaminas porque reducen las reservas de vitamina B12 al agruparse con ella.
-          li 
-            i.lista-ul__vineta
-            | Pueden disminuir las reservas hepáticas de vitamina A. 
-            
-              
-        
-=======
           h3.mb-0.pe-4.pe-lg-5 Inhibidores de carbohidrasas
 
     .bg2.p-4.mb-4
-      .row.align-items-center.justify-content-center
-        .col-lg-2.col-md-4.col-7.mb-3.mb-lg-0
+      .row.align-items-center
+        .col-lg-2
           img(src='@/assets/curso/temas/t1/icono5.svg', alt='')
         .col-lg-10
           p.mb-0 Son sustancias que afectan a enzimas presentes en las secreciones digestivas. Se encuentran en leguminosas, en donde son inhibidores de la amilasa (enzima que cataliza la hidrólisis de polisacáridos como el almidón y el glucógeno). En la papa y en el maíz se han identificado inhibidores de la invertasa, que metaboliza la sacarosa. Las leguminosas y el trigo poseen antiamilasas con importante actividad sobre las enzimas digestivas. En los productos agrícolas como el plátano verde y el mango, que se consumen crudos, las antiamilasas presentes son más difíciles de destruir.
@@ -636,13 +477,13 @@
           .col-lg-7
             h4 Ácido ascórbico oxidasa
             p Esta enzima oxida el ácido ascórbico (vitamina c) por la presencia de oxígeno que es el que cataliza la oxidación. Se encuentra presente en muchos alimentos de origen vegetal, siendo activa en pH entre 4-6 y temperatura entre 15-30 °C. Su actividad se inhibe cuando el alimento es sometido a temperaturas más altas, por ejemplo cuando se escaldan los vegetales. Se encuentra en el pepino, calabaza, melón, col, tomate, lechuga, coliflor, espinaca, zanahoria, patata, guisantes, entre otras. También se puede evitar la acción de la antivitamina por el consumo rápido (tiempo transcurrido desde su preparación o después de abrir el envase) de los zumos de fruta. 
-          .col-lg-4.col-md-6
+          .col-lg-4
             img(src='@/assets/curso/temas/t1/slid5.png', alt='')
         .row.justify-content-center
           .col-lg-7
             h4 Sustancias que impiden la asimilación y metabolismo de minerales
             p Estos componentes no causan ninguna toxicidad en circunstancias de consumo normal, pero sí pueden interferir en la absorción de minerales y metabólicamente esto puede ser de gravedad si se presentan problemas de malnutrición. Entre las sustancias más importantes dentro de este género se encuentran el ácido oxálico y el ácido fático.
-          .col-lg-4.col-md-6
+          .col-lg-4
             img(src='@/assets/curso/temas/t1/slid6.png', alt='')
         .row.justify-content-center
           .col-lg-6
@@ -650,7 +491,7 @@
             p Los oxalatos pueden fijar minerales como el hierro, magnesio, calcio y zinc, pero cuando forman sales con sodio y potasio e insolubles con metales divalentes como el calcio interfieren en su asimilación. Se encuentran en algunos alimentos de origen vegetal como en las espinacas, la remolacha, el cacao, las patatas, el té, el café, el ruibarbo y las acelgas.
             p Sin duda el principal problema nutricional del oxalato deriva de su efecto negativo sobre la asimilación del calcio, principalmente en la fase en la cual el aporte de calcio es primordial como en el crecimiento y gestación, por lo cual se recomienda el consumo de alimentos ricos en calcio, como los productos lácteos, así como un aumento en la ingesta de vitamina D que ayuda a su asimilación.
             p La intoxicación por ácido oxálico causa dolor abdominal y gastroenteritis y en algunos casos graves puede causar diarrea, vómitos, convulsiones, alteraciones en la coagulación y en estados finales se puede llegar al coma. En el aparato digestivo de los seres humanos hay bacterias que pueden digerir el ácido oxálico, lo que facilita cierta adaptación a productos ricos en este compuesto.
-          .col-lg-5.col-md-6
+          .col-lg-5
             img(src='@/assets/curso/temas/t1/slid7.png', alt='')
         .row.justify-content-center.align-items-center
           .col-lg-6
@@ -681,10 +522,10 @@
     p Estas sustancias impiden la absorción de yodo por parte de la glándula tiroides. Según su modo de acción las sustancias bociógenas se pueden clasificar en:
 
     .row.justify-content-center.mb-5(data-aos="fade")
-      .col-lg-4.col-md-10.pe-lg-0
+      .col-lg-4.pe-lg-0
         .bg8.h-100
           img(src='@/assets/curso/temas/t1/img15.svg', alt='')
-      .col-lg-5.col-md-10.ps-lg-0
+      .col-lg-5.ps-lg-0
         .bg1.p-4.h-100
           .bgtitulo1.p-2.mb-3
             h4.mb-0 Sustancias que inhiben la síntesis de tiroxina
@@ -692,7 +533,7 @@
           .bgtitulo1.p-2.mb-3
             h4.mb-0 Sustancias que inhiben la síntesis de tiroxina
           p.mb-0 Esto se realiza por mecanismos no demasiado conocidos como por parte de compuestos como los tiocianatos, isotiocianatos y compuestos fenólicos. Los síntomas mejoran con la administración de yodo.   
-      .col-lg-3.d-none.d-lg-block
+      .col-lg-3
         img(src='@/assets/curso/temas/t1/img16.png', alt='')
 
     .bgtitulo2.mb-4.px-4.py-1(data-aos="fade-right")
@@ -703,7 +544,7 @@
     .tarjeta--container.row(data-aos="fade")
       .col-md.tarjeta.bg10.p-5
         .row.align-items-end.mb-4
-          .col-3.col-md-4.col-lg-3.pe-0
+          .col-3.pe-0
             img(src='@/assets/curso/temas/t1/ico1.svg', alt='')
           .col-6.ps-0
             .bg-color-acento-contenido.w-fit.py-1.px-4
@@ -712,7 +553,7 @@
         p.mb-0 Las fibras se dividen en solubles (gomas, mucílagos y pectinas) e insolubles (lignina, celulosa, hemicelulosa). A pesar de algunos efectos indeseables, la función nutricional de la fibra es notable, ya que limita la transformación de algunos ácidos biliares en derivados cancerígenos por parte de las bacterias digestivas.
       .col-md.tarjeta.bg11.p-5
         .row.align-items-end.mb-4
-          .col-3.col-md-4.col-lg-3.pe-0
+          .col-3.pe-0
             img(src='@/assets/curso/temas/t1/ico2.svg', alt='')
           .col-6.ps-0
             .bg-color-acento-contenido.w-fit.py-1.px-4
@@ -731,7 +572,6 @@
           li.mb-0
             i.fas.fa-check-circle
             | Pueden disminuir las reservas hepáticas de vitamina A. 
->>>>>>> Stashed changes
 
 
 
