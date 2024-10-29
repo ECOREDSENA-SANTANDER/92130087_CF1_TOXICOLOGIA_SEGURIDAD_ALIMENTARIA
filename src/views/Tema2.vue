@@ -12,7 +12,8 @@
         img(src='@/assets/curso/temas/t2/img1.png', alt='')
       .col-lg-7(data-aos="fade-left")
         p Las enfermedades producidas por la ingestión de alimentos, y/o agua contaminados por agentes infecciones tales como bacterias, virus, hongos, parásitos, que en la luz intestinal pueden multiplicarse y producir toxinas invadiendo la pared intestinal y desde allí alcanzar otros sistemas, son conocidas como enfermedades alimentarias.
-        p en los alimentos, o por sustancias químicas que se incorporan a ellos de modo accidental, incidental o intencional en cualquier momento desde su producción hasta su consumo. En estos últimos se encuentran implicados patógenos como Salmonella spp, Escherichia coli, entre otros, considerados como agentes clásicos y bacterias. (López, 2008)
+        p Aquellas conocidas como intoxicaciones alimentarias son las producidas por la ingestión de toxinas formadas en tejidos de plantas o animales, o de productos metabólicos de microorganismos en los alimentos, o por sustancias químicas que se incorporan a ellos de modo accidental, incidental o intencional en cualquier momento desde su producción hasta su consumo. En estos últimos se encuentran implicados patógenos como Salmonella spp, Escherichia coli, entre otros, considerados como agentes clásicos y bacterias. (López, 2008)
+
         .cajon.color-primario.bg1.p-4
           p.mb-0 Dado que en Colombia es incipiente el seguimiento a los brotes de este tipo de enfermedades, este curso responde a la necesidad de conocer las características fundamentales de las enfermedades para identificarlas y atenderlas.
 
@@ -70,18 +71,18 @@
                   | Microorganismos infecciosos trasmitidos por los alimentos.
               h5 Principales vías de transmisión de microorganismos hallados en los alimentos:
               .row
-                .col-lg-3
-                  ul.lista-ul--color.fa-ul.color-primario
+                .col-lg-4.col-md-6
+                  ul.lista-ul--color.fa-ul.color-primario.mb-0
                     li.mb-1
                       i.fas.fa-check-circle
                       | Suelo y agua.
                     li.mb-1
                       i.fas.fa-check-circle
                       | Plantas/ productos.
-                    li
+                    li.mb-0
                       i.fas.fa-check-circle
                       | Utensilios.
-                .col
+                .col-lg-8.col-md-6
                   ul.lista-ul--color.fa-ul.color-primario
                     li.mb-1
                       i.fas.fa-check-circle
@@ -117,43 +118,41 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 3. 
           span Bacterias
+          
         .tabla-b.color-acento-contenido
           .tabla-b__header
             h4.mb-0 Bacterias
           table
             caption Fuente: SENA (2012)
-            tr 
-              td.h5.text-center(rowspan="4") Gramnegativas
-              td Campylobacter
-              td Famenterobacteriaceae
-            tr
-              td Pseudomonas
-              td Aeromonas  
-            tr
-              td Brucella
-              td Vibrio 
-            tr
-              td Acetobacter
-              td Zymomonas
-            tr 
-              td.h5.text-center(rowspan="6") Grampositivas
-              td Micrococcus
-              td Bacillus
-            tr
-              td Staphylococcus
-              td Clostridium  
-            tr
-              td Enterococcus
-              td Lactobacillus 
-            tr
-              td Lactococcus
-              td Listeria
-            tr
-              td Streptococcus
-              td Propionibacterium
-            tr
-              td Pediococcus
-              td Bifidobacterium
+            tr.bg-white
+              td.h5.text-center Gramnegativas
+              td 
+                p Campylobacter
+                p Pseudomonas
+                p Brucella
+                p.mb-0 Acetobacter
+              td
+                p Famenterobacteriaceae
+                p Aeromonas
+                p Vibrio
+                p.mb-0 Zymomonas
+            tr.bg9 
+              td.h5.text-center Grampositivas
+              td 
+                p Micrococcus
+                p Staphylococcus
+                p Enterococcus
+                p Lactococcus
+                p Streptococcus
+                p.mb-0 Pediococcus
+              td 
+                p Bacillus
+                p Clostridium
+                p Lactobacillus
+                p Listeria
+                p Propionibacterium
+                p.mb-0 Bifidobacterium
+           
 
     .row.justify-content-center.mb-5(data-aos="fade")
       .col-lg-8        
@@ -165,42 +164,38 @@
             h4.mb-0 Hongos
           table
             caption Fuente: SENA (2012)
-            tr 
-              td.h5.text-center(rowspan="5") Mohos
-              td Mucor
+            tr.bg-white 
+              td.h5.text-center Mohos
               td 
-            tr
-              td Rhizopus
-              td Alternaria
-            tr
-              td Claviceps
-              td Botrytis
-            tr
-              td Fusarium
-              td Aspergillus 
-            tr
-              td Penicillium
+                p Mucor
+                p Rhizopus
+                p Claviceps
+                p Fusarium
+                p.mb-0 Penicillium
               td 
-            tr 
-              td.h5.text-center(rowspan="3") Levaduras
-              td Saccharomyces
-              td Rhodotorula
-            tr
-              td Pichia
-              td Candida
-            tr
-              td Zygosaccharomyces
-              td Kluyveromyces 
-            tr 
-              td.h5.text-center(rowspan="3") Virus
-              td Norovirus
-              td Astrovirus
-            tr
-              td Hepatitis A y E
-              td Bacteriófagas
-            tr
-              td Rotavirus
-              td  
+                p Alternaria
+                p Botrytis
+                p.mb-0 Aspergillus
+            tr.bg9 
+              td.h5.text-center Levaduras
+              td 
+                p Saccharomyces
+                p Pichia
+                p.mb-0 Zygosaccharomyces
+              td 
+                p Rhodotorula
+                p Candida
+                p.mb-0 Kluyveromyces  
+            tr.bg-white 
+              td.h5.text-center Virus
+              td 
+                p Norovirus
+                p Hepatitis A y E
+                p.mb-0 Rotavirus
+              td 
+                p Astrovirus
+                p.mb-0 Bacteriófagas
+ 
 
     .row.justify-content-center(data-aos="fade")
       .col-lg-8        
@@ -212,74 +207,75 @@
             h4.mb-0 Grupo fisiológico
           table.text-center
             caption Fuente: SENA (2012)
-            tr 
-              td.text-start(rowspan="3") 1. Bacterias del ácido láctico
-              td Lactobacillus
-              td Lactococcus
-            tr 
-              td Pediococcus
-              td Streptococcus
-            tr 
-              td Leuconostoc
-              td Microbacterium
-            tr 
+            tr.bg-white 
+              td.text-start 1. Bacterias del ácido láctico
+              td 
+                p Lactobacillus
+                p Pediococcus
+                p.mb-0 Leuconostoc
+              td 
+                p Lactococcus
+                p Streptococcus
+                p.mb-0 Microbacterium
+            tr.bg9 
               td.text-start 2. Bacterias del ácido acético
               td Acetobacter
               td Gluconobacter
-            tr 
+            tr.bg-white 
               td.text-start 3. Bacterias del ácido butírico
               td(colspan="2") Clostridium
-            tr 
+            tr.bg9 
               td.text-start 4. Bacterias del ácido propiónico
               td(colspan="2") Propionibacterium
-            tr 
-              td.text-start(rowspan="3") 5. Bacterias proteolíticas
-              td Pseudomonas
-              td Alcaligenes
-            tr 
-              td Bacillus
-              td Clostridium
-            tr 
-              td Micrococcus
-              td Streptococcus
-            tr 
+            tr.bg-white 
+              td.text-start 5. Bacterias proteolíticas
+              td 
+                p Pseudomonas
+                p Bacillus
+                p.mb-0 Micrococcus
+              td 
+                p Alcaligenes
+                p Clostridium
+                p.mb-0 Streptococcus
+            tr.bg9 
               td.text-start 6. Bacterias lipolíticas
               td Pseudomonas
               td Alcaligenes
-            tr 
-              td.text-start(rowspan="2") 7. Bacterias sacarolíticas
-              td Serratia
-              td Micrococcus
-            tr 
-              td Bacillus
-              td Clostridium
-            tr 
-              td.text-start(rowspan="2") 8. Bacterias pectolíticas
-              td Erwinia
-              td Clostridium
-            tr 
-              td Bacillus
+            tr.bg-white
+              td.text-start 7. Bacterias sacarolíticas
               td 
-            tr 
-              td.text-start(rowspan="2") 9. Bacterias formadoras de mucílago o viscosidad
-              td Alcaligenes
-              td Leuconostoc
-            tr 
-              td Streptococcus
-              td Lactobacillus
-            tr 
-              td.text-start(rowspan="4") 10. Bacterias productoras de gas
-              td Escherichia
-              td Enterobacter
-            tr 
-              td Proteus
-              td Clostridium
-            tr 
-              td Bacillus
-              td Lactobacillus
-            tr 
-              td Propionibacterium
-              td Leuconostoc
+                p Serratia
+                p.mb-0 Bacillus
+              td 
+                p Micrococcus
+                p.mb-0 Clostridium
+            tr.bg9 
+              td.text-start 8. Bacterias pectolíticas
+              td 
+                p Erwinia
+                p.mb-0 Bacillus
+              td 
+                p Clostridium
+            tr.bg-white
+              td.text-start 9. Bacterias formadoras de mucílago o viscosidad
+              td 
+                p Alcaligenes
+                p.mb-0 Streptococcus
+              td 
+                p Leuconostoc
+                p.mb-0 Lactobacillus 
+            tr.bg9 
+              td.text-start 10. Bacterias productoras de gas
+              td 
+                p Escherichia
+                p Proteus
+                p Bacillus
+                p.mb-0 Propionibacterium
+              td 
+                p Enterobacter
+                p Clostridium
+                p Lactobacillus
+                p.mb-0 Leuconostoc
 
 
     Separador
@@ -372,7 +368,7 @@
             | Gastroenteritis.
           li
             i.fas.fa-check-circle
-            | Fiebre tifoidea, la salmonella entérica serovar typhi es el agente causal de dicha fiebre.
+            span.mb-0 Fiebre tifoidea, la salmonella entérica #[em serovar typhi] es el agente causal de dicha fiebre.
         p El reservorio es el hombre. La dosis infecciosa es bajo 100 células por colonia. La transmisión es principalmente a través del agua, de alimentos contaminados y a través de manipuladores portadores. El número de afectados disminuye a medida que se trate el agua. La trasmisión es oral – fecal.
       .tarjeta.bg7.p-4.px-lg-5(titulo="<em>Salmonella typhi</em>")
         p Es el agente etiológico de la fiebre tifoidea, esta enfermedad es sistemática, el período de incubación es de 7 a 10 días. Esta bacteria penetra la mucosa intestinal pasando por los nódulos linfáticos, puede ubicarse en el hígado y el bazo. Se extiende por la sangre y puede causar una septicemia, los síntomas que genera son fiebre, dolor, tos, estupor y en la segunda semana de ser contraída puede causar diarrea, dura de 3 a 4 semanas y en casos graves puede causar la muerte.
@@ -381,10 +377,10 @@
         ul.lista-ul--color.fa-ul.color-secundario
           li.mb-1
             i.fas.fa-check-circle
-            span.mb-0 #[b Enteritis:] diarrea de suave a severa.
+            span.mb-0 Enteritis: diarrea de suave a severa.
           li.mb-1
             i.fas.fa-check-circle
-            span.mb-0 #[b Cistitis:] infección del tracto urinario.
+            span.mb-0 Cistitis: infección del tracto urinario.
           li.mb-1
             i.fas.fa-check-circle
             | Septicemia.

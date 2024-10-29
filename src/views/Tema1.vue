@@ -60,7 +60,7 @@
         img(src='@/assets/curso/temas/t1/fig1.svg', alt='')
         figcaption #[b Fuente:] Shibatomo
       .col-lg-7
-        p.mb-4 A medida que la dosis de una sustancia se aproxima al nivel tóxico, se llega a un intervalo de dosis al que los individuos del grupo experimental responden de forma similar. Una vez que se ha establecido la respuesta, los experimentos de dosis-respuesta o dosis-efecto pueden mostrarse de distintas formas. Se obtiene una dosis de frecuencias de respuestas (Figura 1) representando el número de individuos con una respuesta definida específica en función de la dosis. La mayor de estas dosis sin respuesta es la llamada dosis o nivel sin efecto observado, en inglés “No Observed Effect Level” (NOEL).
+        p.mb-4 A medida que la dosis de una sustancia se aproxima al nivel tóxico, se llega a un intervalo de dosis al que los individuos del grupo experimental responden de forma similar. Una vez que se ha establecido la respuesta, los experimentos de dosis-respuesta o dosis-efecto pueden mostrarse de distintas formas. Se obtiene una dosis de frecuencias de respuestas (Figura 1) representando el número de individuos con una respuesta definida específica en función de la dosis. La mayor de estas dosis sin respuesta es la llamada dosis o nivel sin efecto observado, en inglés #[em “No Observed Effect Level”] (NOEL).
         .cajon.color-primario.bg1.p-4.p-lg-5.mb-4
           p.mb-0 Para establecer la NOEL se administra un rango de dosis suficientemente pequeña para originar respuesta. A medida que se acumula la dosis, el porcentaje de individuos de cada grupo experimental que responde sigue aumentando hasta que se alcanza una dosis, a partir de la cual responde el 100% de los miembros del grupo.
     
@@ -69,7 +69,7 @@
         .col-lg-2
           img(src='@/assets/curso/temas/t1/icono2.svg', alt='')
         .col-lg-10
-          p.mb-0 La seguridad absoluta de una sustancia no puede explicarse puesto que la demostración ha de basarse en una evidencia negativa, es decir, en la falta de peligro o de daño debido a tal sustancia. Estadísticamente siempre existe la posibilidad que el experimento siguiente demuestre que el producto no es seguro. Así el concepto de seguridad se ha desarrollado con el transcurso del tiempo e inicialmente se podía considerar segura una sustancia si se consumía sin que ocasionase la muerte inmediata o una lesión aguda. Los conocimientos actuales de los efectos tóxicos y la capacidad de comprobarlos han aumentado hasta un punto, en el que se considera relativamente segura a una sustancia si no se producen efectos adversos en determinados efectos biológicos
+          p.mb-0 La seguridad absoluta de una sustancia no puede explicarse puesto que la demostración ha de basarse en una evidencia negativa, es decir, en la falta de peligro o de daño debido a tal sustancia. Estadísticamente siempre existe la posibilidad que el experimento siguiente demuestre que el producto no es seguro. Así el concepto de seguridad se ha desarrollado con el transcurso del tiempo e inicialmente se podía considerar segura una sustancia si se consumía sin que ocasionase la muerte inmediata o una lesión aguda. Los conocimientos actuales de los efectos tóxicos y la capacidad de comprobarlos han aumentado hasta un punto, en el que se considera relativamente segura a una sustancia si no se producen efectos adversos en determinados efectos biológicos.
     
     .row.mb-5(data-aos="fade-down")
       .col-lg-5
@@ -178,7 +178,7 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3. Fenómeno tóxico
     
-    p.mb-4 La toxicidad es un fenómeno muy complejo en el que actúan muchos factores y donde se pueden distinguir dos grandes fases: la fase toxicocinéticay la fase toxicodinámica.
+    p.mb-4 La toxicidad es un fenómeno muy complejo en el que actúan muchos factores y donde se pueden distinguir dos grandes fases: la fase toxicocinética y la fase toxicodinámica.
     
     .subt(data-aos='fade-right')
       .row.align-items-center.mb-4
@@ -257,12 +257,7 @@
           .col-md-6.col-lg-5
             p Son sustancias extrañas a los alimentos que pueden ser de diversas clases: adicionadas al alimento, generadas por el procesamiento tecnológico-industrial de estos o procedentes de la contaminación ambiental. A este grupo pertenecen los aditivos, las sustancias tóxicas de origen bacteriano y fúngico, las que surgen de la contaminación ambiental, los residuos de medicamentos en alimentos y los tóxicos generados durante la preparación, proceso y almacenamiento de los alimentos.
 
-    .row.mb-5(data-aos='fade')
-      .col-lg-5.pe-lg-0.d-none.d-lg-block
-        img(src='@/assets/curso/temas/t1/img12.png', alt='')
-      .col-lg-7.ps-lg-0
-        .bg1.p-4.h-100.d-flex.align-items-center
-          p.mb-0 En tiempos pasados, los ancestros se alimentaban con una serie de productos que desencadenaban muchos casos de intoxicación y muertes por desconocimiento que estos alimentos causaban cierta enfermedad. Gracias a la experiencia, el hombre aprendió a distinguir cuáles sustancias podría utilizar como alimento, sin producirle enfermedades ni causarle la muerte, y cuáles no; también sobre cuáles debería procesar previamente antes de consumirlas. Así se desarrollaron hábitos alimenticios que permitieron la supervivencia y el desarrollo de la especie.
+    p.mb-4 En tiempos pasados, los ancestros se alimentaban con una serie de productos que desencadenaban muchos casos de intoxicación y muertes por desconocimiento que estos alimentos causaban cierta enfermedad. Gracias a la experiencia, el hombre aprendió a distinguir cuáles sustancias podría utilizar como alimento, sin producirle enfermedades ni causarle la muerte, y cuáles no; también sobre cuáles debería procesar previamente antes de consumirlas. Así se desarrollaron hábitos alimenticios que permitieron la supervivencia y el desarrollo de la especie.
 
     .titulo-sexto.color-acento-contenido(data-aos="fade")
       h5 Tabla 1. 
@@ -270,7 +265,7 @@
     .tabla-b.color-acento-contenido.mb-4(data-aos="fade-down")     
       table
         tr
-          td.bg-white.fw-bold.text-center(rowspan="3") Endógenos
+          td.bg-white.fw-bold.text-center(rowspan="2") Endógenos
           td Sustancias antinutricionales.
           td 
             ul.lista-ul--color.fa-ul.color-secundario
@@ -284,8 +279,10 @@
                 i.fas.fa-check-circle
                 | Sustancias de actividad polivalente (taninos, fibras).
         tr
-          td Tóxicos de origen vegetal.
-          td(rowspan="2") 
+          td 
+            p.mb-4 Tóxicos de origen vegetal.
+            p Tóxicos de origen animal.
+          td 
             ul.lista-ul--color.fa-ul.color-secundario
               li 
                 i.fas.fa-check-circle
@@ -293,8 +290,6 @@
               li 
                 i.fas.fa-check-circle
                 |  Saxitoxina, tetramina, tetrodotoxina, ciguatoxina, escombrotoxina.  
-        tr
-          td.bg9 Tóxicos de origen animal.  
         tr
           td.bg-white.fw-bold.text-center(rowspan="4") Exógenos 
           td.bg-white Aditivos.
@@ -479,6 +474,8 @@
             p Esta enzima oxida el ácido ascórbico (vitamina c) por la presencia de oxígeno que es el que cataliza la oxidación. Se encuentra presente en muchos alimentos de origen vegetal, siendo activa en pH entre 4-6 y temperatura entre 15-30 °C. Su actividad se inhibe cuando el alimento es sometido a temperaturas más altas, por ejemplo cuando se escaldan los vegetales. Se encuentra en el pepino, calabaza, melón, col, tomate, lechuga, coliflor, espinaca, zanahoria, patata, guisantes, entre otras. También se puede evitar la acción de la antivitamina por el consumo rápido (tiempo transcurrido desde su preparación o después de abrir el envase) de los zumos de fruta. 
           .col-lg-4
             img(src='@/assets/curso/temas/t1/slid5.png', alt='')
+        
+        
         .row.justify-content-center
           .col-lg-7
             h4 Sustancias que impiden la asimilación y metabolismo de minerales
@@ -496,7 +493,8 @@
         .row.justify-content-center.align-items-center
           .col-lg-6
             h4 Ácido fítico
-            p Este ácido impide la absorción de calcio, magnesio, hierro, cobre y zinc, además de afectar la utilización proteica por la formación de complejos insolubles. Se encuentra especialmente en cereales, leguminosas y semillas oleaginosas, trigo, maíz, arroz, avena, lenteja, soja, cacahuete y nuez. En los cereales se halla en la parte exterior, que es donde está su gran contenido en fitatos, por ejemplo en productos como el salvado, harinas, pan y pastas. Se han registrado casos de retrasos en el crecimiento y maduración sexual en niños cuya dieta se basa fundamentalmente en la ingesta de pan integral total. No obstante, la reducción en la biodisponibilidad mineral se puede contrarrestar en cierta medida incrementando la ingesta de minerales esenciales y gracias al aporte suficiente de mineral existente en la mayor parte de semillas.
+            p Este ácido impide la absorción de calcio, magnesio, hierro, cobre y zinc, además de afectar la utilización proteica por la formación de complejos insolubles. Se encuentra especialmente en cereales, leguminosas y semillas oleaginosas, trigo, maíz, arroz, avena, lenteja, soja, cacahuete y nuez. En los cereales se halla en la parte exterior, que es donde está su gran contenido en fitatos, por ejemplo en productos como el salvado, harinas, pan y pastas. 
+            p Se han registrado casos de retrasos en el crecimiento y maduración sexual en niños cuya dieta se basa fundamentalmente en la ingesta de pan integral total. No obstante, la reducción en la biodisponibilidad mineral se puede contrarrestar en cierta medida incrementando la ingesta de minerales esenciales y gracias al aporte suficiente de mineral existente en la mayor parte de semillas.
             p En muchos alimentos, los niveles de fitatos pueden ser reducidos por la enzima fosfatasa, que se encuentra presente en los alimentos ricos en ácido fítico con mayor o menor actividad. Gracias a la actividad de esta enzima el ácido se hidroliza liberándose inositol y fosfato orgánico. Esta enzima presenta una actividad máxima a pH 5,5 y 60°C, con lo cual el tratamiento del alimento con ácido y/o calor favorece su hidrólisis, y gracias a ello el contenido de este ácido se reduce drásticamente durante el proceso de cocción. Las fitasas son inhibidas por cocción a más de 60 °C,por fermentación del pan con levadura química (bicarbonato) que provoca aumento de pH y por la germinación.
           .col-lg-5
             .tarjeta.bg10.p-4.py-lg-5.mb-4
@@ -528,10 +526,10 @@
       .col-lg-5.ps-lg-0
         .bg1.p-4.h-100
           .bgtitulo1.p-2.mb-3
-            h4.mb-0 Sustancias que inhiben la síntesis de tiroxina
+            h4.mb-0 Sustancias que inhiben la síntesis de tiroxina:
           p.mb-5 Un ejemplo de este mecanismo de acción, son las tioxazolidinas como la Goitrina resultante de la hidrólisis del tioglucósido progoitrina presente en vegetales del género Brassica como coliflor, col, nabo. Para mejorar la acción biciógena se requiere la administración de la hormona tiroxina.
           .bgtitulo1.p-2.mb-3
-            h4.mb-0 Sustancias que inhiben la síntesis de tiroxina
+            h4.mb-0 Sustancias que inhiben la captación de yodo por la tiroides:
           p.mb-0 Esto se realiza por mecanismos no demasiado conocidos como por parte de compuestos como los tiocianatos, isotiocianatos y compuestos fenólicos. Los síntomas mejoran con la administración de yodo.   
       .col-lg-3
         img(src='@/assets/curso/temas/t1/img16.png', alt='')

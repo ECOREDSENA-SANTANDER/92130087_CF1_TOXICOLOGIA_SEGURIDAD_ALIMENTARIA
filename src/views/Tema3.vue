@@ -227,7 +227,7 @@
       .col-lg-1.col-md-2.col-7.mb-3.mb-lg-0
         img(src='@/assets/curso/temas/t3/img10.svg', alt='')
       .col-lg-11.col-md-10
-        p.mb-0 Pertenece a la familia Reoviridae, es virus icosaédrico sin envuelta lipídica con la cápsula icosahédrica formada por dos capas concéntricas y un diámetro aproximado de 80 nm. El rotavirus tiene una apariencia característica parecida a la de una rueda. El virus es estable al medio ambiente, contiene 11 segmentos de ARN lineal de cadena doble. La longitud total del genoma es 16500- 21000 nucleóticos. Codifica para seis proteínas estructurales y cinco no estructurales.
+        p.mb-0 Pertenece a la familia Reoviridae, es virus icosaédrico sin envuelta lipídica con la cápsula icosahédrica formada por dos capas concéntricas y un diámetro aproximado de 80 nm. El rotavirus tiene una apariencia característica parecida a la de una rueda. El virus es estable al medio ambiente, contiene 11 segmentos de ARN lineal de cadena doble. La longitud total del genoma es 16500 - 21000 nucleóticos. Codifica para seis proteínas estructurales y cinco no estructurales.
 
     TabsB.color-acento-contenido.mb-5(data-aos="fade-down")
       .py-4.py-md-5(titulo="Estructura taxonómica" :icono="require('@/assets/curso/temas/t3/tabs-ico1.svg')")
