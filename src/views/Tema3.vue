@@ -115,7 +115,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-7(data-aos="fade-right")
         p Son elementos genéticos que presentan dos estados, uno intracelular, donde el virus puede replicarse y uno extracelular que constituye la partícula vírica que sirve para la transmisión de los nuevos huéspedes. Se han caracterizado unos 40.000 virus de varias docenas de familias diferentes, sabiendo además que sólo una pequeña fracción de los virus que existen en el planeta son los causantes de enfermedades.
-        p Los virus por lo tanto, son parásitos intracelulares obligados y no pueden replicar en agua o en alimentos. Los alimentos pueden presentar contaminación viral (por ejemplo, las bacterias presentes en los alimentos pueden contener virus) y tener un aspecto, color y sabor completamente normal. Los que están asociados a agua o alimentos son en su totalidad virus de estructura icosahédrica, desnudos (sin envuelta lipídica), relativamente resistentes al calor, desinfección y cambios de pH. 
+        p Los virus, por lo tanto, son parásitos intracelulares obligados y no pueden replicar en agua o en alimentos. Los alimentos pueden presentar contaminación viral (por ejemplo, las bacterias presentes en los alimentos pueden contener virus) y tener un aspecto, color y sabor completamente normal. Los que están asociados a agua o alimentos son en su totalidad virus de estructura icosahédrica, desnudos (sin envuelta lipídica), relativamente resistentes al calor, desinfección y cambios de pH. 
         p Así la contaminación vírica de los alimentos no aumenta durante el procesamiento, únicamente puede mantenerse o disminuir por inactivación o dilución de los virus.
       .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t3/img4.png', alt='')
@@ -195,7 +195,7 @@
         .col-auto.ps-0
           h3.mb-0.pe-4.pe-lg-5 Hepatitis E
     
-    p El VHE presenta una tasa de mortalidad aproximadamente del 1% pero puede llegar al 20% en mujeres embarazadas. La prevalencia de anticuerpos en áreas consideradas no endémicas es de 1 a 3%. Su morfología es una partícula esférica sin envuelta, es icosaedrico con un tamaño de 32–34 nm. Los antígenos son dos inmodominates.      
+    p El VHE presenta una tasa de mortalidad aproximadamente del 1 % pero puede llegar al 20 % en mujeres embarazadas. La prevalencia de anticuerpos en áreas consideradas no endémicas es de 1 a 3 %. Su morfología es una partícula esférica sin envuelta, es icosaedrico con un tamaño de 32–34 nm. Los antígenos son dos inmodominates.      
 
     .row.justify-content-center.mb-5(data-aos="fade")
       .col-lg-5.col-md-10.pe-lg-0
@@ -208,7 +208,7 @@
           ul.lista-ul--color.fa-ul.color-primario.mb-0
             li
               i.fas.fa-check-circle
-              | Según estudios realizados sobre la infección por el virus de la Hepatitis E en porcinos, en Estados Unidos el 80% de los cerdos mayores de 3 meses son seropositivos.
+              | Según estudios realizados sobre la infección por el virus de la Hepatitis E en porcinos, en Estados Unidos el 80 % de los cerdos mayores de 3 meses son seropositivos.
             li
               i.fas.fa-check-circle
               | Se ha descrito la infección por VHE en porcinos en Tailandia, Vietnam, Taiwán, Corea, China, Canadá y Australia.

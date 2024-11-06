@@ -49,7 +49,7 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/t1/img4.png')})`}")
       .bloque-texto-g__texto.p-4
-        p.mb-0 Los datos de dosis-respuesta y en particular la información sobre la toxicidad aguda de las sustancias, se indica a menudo como respuesta acumulativa frente a las dosis. En este caso se suministran a grupos de individuos varias cantidades de la sustancia y se anota el porcentaje de los mismos que responden positivamente. En el caso de la dosis letal, se apunta el número de seres que mueren. En el caso de una respuesta no terminal, se escribe el número de los individuos que responden al menos a una de las dosis. Previamente se establece experimentalmente el intervalo de porción en el que tiene lugar la respuesta de interés. Los datos se representan como porcentaje acumulativo de individuos que responden en la forma deseada frente a la dosis.
+        p.mb-0 Los datos de dosis - respuesta y en particular la información sobre la toxicidad aguda de las sustancias, se indica a menudo como respuesta acumulativa frente a las dosis. En este caso se suministran a grupos de individuos varias cantidades de la sustancia y se anota el porcentaje de los mismos que responden positivamente. En el caso de la dosis letal, se apunta el número de seres que mueren. En el caso de una respuesta no terminal, se escribe el número de los individuos que responden al menos a una de las dosis. Previamente se establece experimentalmente el intervalo de porción en el que tiene lugar la respuesta de interés. Los datos se representan como porcentaje acumulativo de individuos que responden en la forma deseada frente a la dosis.
 
     .row.mb-4(data-aos="fade-down")
       .col-12
@@ -57,12 +57,12 @@
           h5 Figura 1. 
           span Curva dosis - respuesta
       .col-lg-5
-        img(src='@/assets/curso/temas/t1/fig1.svg', alt='')
+        img(src='@/assets/curso/temas/t1/fig1.svg', alt='La grafica presenta la curva en forma de montaña que se forma al indicar las respuestas de dosis acumulativas de toxicidad de un elemento o compuesto.')
         figcaption #[b Fuente:] Shibatomo
       .col-lg-7
-        p.mb-4 A medida que la dosis de una sustancia se aproxima al nivel tóxico, se llega a un intervalo de dosis al que los individuos del grupo experimental responden de forma similar. Una vez que se ha establecido la respuesta, los experimentos de dosis-respuesta o dosis-efecto pueden mostrarse de distintas formas. Se obtiene una dosis de frecuencias de respuestas (Figura 1) representando el número de individuos con una respuesta definida específica en función de la dosis. La mayor de estas dosis sin respuesta es la llamada dosis o nivel sin efecto observado, en inglés #[em “No Observed Effect Level”] (NOEL).
+        p.mb-4 A medida que la dosis de una sustancia se aproxima al nivel tóxico, se llega a un intervalo de dosis al que los individuos del grupo experimental responden de forma similar. Una vez que se ha establecido la respuesta, los experimentos de dosis - respuesta o dosis - efecto pueden mostrarse de distintas formas. Se obtiene una dosis de frecuencias de respuestas (Figura 1) representando el número de individuos con una respuesta definida específica en función de la dosis. La mayor de estas dosis sin respuesta es la llamada dosis o nivel sin efecto observado, en inglés #[em “No Observed Effect Level”] (NOEL).
         .cajon.color-primario.bg1.p-4.p-lg-5.mb-4
-          p.mb-0 Para establecer la NOEL se administra un rango de dosis suficientemente pequeña para originar respuesta. A medida que se acumula la dosis, el porcentaje de individuos de cada grupo experimental que responde sigue aumentando hasta que se alcanza una dosis, a partir de la cual responde el 100% de los miembros del grupo.
+          p.mb-0 Para establecer la NOEL se administra un rango de dosis suficientemente pequeña para originar respuesta. A medida que se acumula la dosis, el porcentaje de individuos de cada grupo experimental que responde sigue aumentando hasta que se alcanza una dosis, a partir de la cual responde el 100 % de los miembros del grupo.
     
     .bg2.p-4.mb-4
       .row.align-items-center
@@ -74,19 +74,19 @@
     .row.mb-5(data-aos="fade-down")
       .col-lg-5
         .bg3.p-4.h-100
-          p Dado que no se puede hablar de una seguridad absoluta, se debe hablar de seguridad relativa, definiendo las condiciones en que se evalúa tal seguridad. Una vez que se han definido los efectos tóxicos de una especie y las condiciones experimentales de la prueba, la toxicidad relativa de las sustancias se establece a menudo determinando las curvas de las dosis letales y comparándolas con las DL50.
+          p Dado que no se puede hablar de una seguridad absoluta, se debe hablar de seguridad relativa, definiendo las condiciones en que se evalúa tal seguridad. Una vez que se han definido los efectos tóxicos de una especie y las condiciones experimentales de la prueba, la toxicidad relativa de las sustancias se establece a menudo determinando las curvas de las dosis letales y comparándolas con las DL#[SUB 50].
       .col-lg-3
         img(src='@/assets/curso/temas/t1/img5.svg', alt='')
       .col-lg-4
-        p.mb-0 La DL50 es un valor determinado estadísticamente y representa el valor de la dosis necesaria para producir la muerte del 50% de los organismos experimentales. El porcentaje de la DL50 debe acompañarse siempre de alguna cifra o valor de la estimación del error. El intervalo de probabilidad, o valor p, que es el más utilizado, acepta que debe ser menor de 0,05. Este valor indica que si se repitiesen 100 veces el experimento en 95 ocasiones se obtendría la misma DL50.
+        p.mb-0 La DL#[SUB 50] es un valor determinado estadísticamente y representa el valor de la dosis necesaria para producir la muerte del 50 % de los organismos experimentales. El porcentaje de la DL#[SUB 50] debe acompañarse siempre de alguna cifra o valor de la estimación del error. El intervalo de probabilidad, o valor p, que es el más utilizado, acepta que debe ser menor de 0,05. Este valor indica que si se repitiesen 100 veces el experimento en 95 ocasiones se obtendría la misma DL#[SUB 50].
 
-    p.mb-4 Aunque cada sustancia presenta una curva de dosis letal-respuesta, hay muchas diferencias en las DL50 de diferentes sustancias. Por ejemplo, la DL50 de la cafeína se ha estimado en unos 200 mg/ kg de peso corporal; la de la toxina botulínica, una de las sustancias más tóxicas que se conocen, se ha estimado en unos 100 mg/kg. Por otra parte, la sal o cloruro sódico presenta una DL50 estimada de 40 mg/kg. Como norma general las sustancias con DL50 de 1 mg o menos deben considerarse muy tóxicas, aquellas que se encuentran entre 1-50 mg/kg como altamente tóxicas y las que presentan un rango de entre 50 y 500 mg/kg como moderadamente tóxicas.
+    p.mb-4 Aunque cada sustancia presenta una curva de dosis letal - respuesta, hay muchas diferencias en las DL#[SUB 50] de diferentes sustancias. Por ejemplo, la DL#[SUB 50] de la cafeína se ha estimado en unos 200 mg / kg de peso corporal; la de la toxina botulínica, una de las sustancias más tóxicas que se conocen, se ha estimado en unos 100 mg / kg. Por otra parte, la sal o cloruro sódico presenta una DL#[SUB 50] estimada de 40 mg / kg. Como norma general las sustancias con DL#[SUB 50] de 1 mg o menos deben considerarse muy tóxicas, aquellas que se encuentran entre 1-50 mg / kg como altamente tóxicas y las que presentan un rango de entre 50 y 500 mg / kg como moderadamente tóxicas.
 
     .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/t1/img6.png')})`}")
       .bloque-texto-g__texto.p-4
-        p.mb-0 Los productos cuyas DL50 son mayores que los valores antes citados se consideran como “no tóxicas”, ya que para originar toxicidad o envenenamiento deberían consumirse cantidades relativamente grandes. Por ejemplo, un hombre adulto tendría que ingerir una copa de una sustancia cuya DL50 fuera de 2 g/kg, para presentar toxicidad. Pero de una sustancia muy tóxica que está en el rango 1 mg/kg la ingesta de sólo unas pocas gotas le produciría toxicidad. El riesgo se identifica como la probabilidad de que en algunas condiciones el tóxico genere un daño.
+        p.mb-0 Los productos cuyas DL#[SUB 50] son mayores que los valores antes citados se consideran como “no tóxicas”, ya que para originar toxicidad o envenenamiento deberían consumirse cantidades relativamente grandes. Por ejemplo, un hombre adulto tendría que ingerir una copa de una sustancia cuya DL#[SUB 50] fuera de 2 g / kg, para presentar toxicidad. Pero de una sustancia muy tóxica que está en el rango 1 mg / kg la ingesta de sólo unas pocas gotas le produciría toxicidad. El riesgo se identifica como la probabilidad de que en algunas condiciones el tóxico genere un daño.
     
     .subt(data-aos='fade-right')
       .row.align-items-center.mb-4
@@ -100,7 +100,7 @@
         img(src='@/assets/curso/temas/t1/img7.png', alt='')
       .col-lg-7
         p La identificación de los límites de seguridad, definidos como la certeza que no se producirá ningún daño si el producto se utiliza en determinadas condiciones. Estos son indicadores de vital importancia en la toxicología alimentaria. El límite residual crítico (LRM) es el valor del residuo mínimo que queda en el alimento tras su contacto con este siguiendo unas buenas prácticas de higiene, agrícolas y de procesamiento, siempre y cuando este valor sea inferior a su IDA.
-        p La IDA se define como la cantidad de tóxico, dada en mg/kg de peso corporal, que puede consumirse durante un período de tiempo determinado, o incluso durante toda la existencia, sin que ello entrañe peligro para la salud del consumidor. La IDA se calcula a partir de la dosis sin efectos apreciables en la más sensible de las especies animales estudiados y dividiendo esta dosis por un factor de seguridad, habitualmente de 100. Por tanto, la IDA es sólo el 1% de la dosis máxima sin efectos.
+        p La IDA se define como la cantidad de tóxico, dada en mg / kg de peso corporal, que puede consumirse durante un período de tiempo determinado, o incluso durante toda la existencia, sin que ello entrañe peligro para la salud del consumidor. La IDA se calcula a partir de la dosis sin efectos apreciables en la más sensible de las especies animales estudiados y dividiendo esta dosis por un factor de seguridad, habitualmente de 100. Por tanto, la IDA es sólo el 1 % de la dosis máxima sin efectos.
 
     p.mb-4 Para el establecimiento del LRM y la IDA se requiere la realización de los siguientes estudios toxicológicos:
     
@@ -108,10 +108,10 @@
       .col-lg-6(data-aos="fade-right")
         LineaTiempoD.color-acento-contenido.t1
           p(numero="1" titulo="Toxicidad aguda") (Establece una dosis única elevada).          
-          p(numero="2" titulo="Toxicidad subaguda y crónica") Mediante la ingesta de una dosis permanente. En el caso de la subaguda se administra diariamente en dosis de la sustancia inferiores a la DL50, durante un periodo de mínimo 3 meses. Se diferencia de los estudios de toxicidad crónica porque se administran por un periodo más largo de tiempo en 1 ó 2 años.          
+          p(numero="2" titulo="Toxicidad subaguda y crónica") Mediante la ingesta de una dosis permanente. En el caso de la subaguda se administra diariamente en dosis de la sustancia inferiores a la DL#[SUB 50], durante un periodo de mínimo 3 meses. Se diferencia de los estudios de toxicidad crónica porque se administran por un periodo más largo de tiempo en 1 ó 2 años.          
           p(numero="3" titulo="Genotoxicidad y mutagénesis") Estudian la capacidad que tienen algunas sustancias de alterar componentes genéticos (DNA). Leratogénesis analiza si la sustancia tiene capacidad para generar efectos tóxicos sobre el embrión o el feto.          
           p(numero="4" titulo="Carcinogénesis") Estudia si la sustancia puede dar lugar al desarrollo de tumores.
-          p(numero="4" titulo="Sobre la reproducción") Estudia si la sustancia tiene capacidad para generar efectos sobre la fertilidad, la gestación y la descendencia. 
+          p(numero="5" titulo="Sobre la reproducción") Estudia si la sustancia tiene capacidad para generar efectos sobre la fertilidad, la gestación y la descendencia. 
       .col-lg-6(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img8.png', alt='')
     
@@ -155,7 +155,7 @@
             .col-4
               img(src='@/assets/curso/temas/t1/boton1.svg', alt='')
           h4.bgtitulo3.mb-4.py-1.px-3.text-center Determinación de la toxicidad
-          p.text-center Se establece la DL50 que hace parte relevante de la dosis y ruta de administración en los ensayos de toxicidad posterior.
+          p.text-center Se establece la DL#[sub 50] que hace parte relevante de la dosis y ruta de administración en los ensayos de toxicidad posterior.
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-secundario.p-4.h-100
           .row.justify-content-center.mb-4
@@ -202,7 +202,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-md-0
             h4 Distribución
-            p El tóxico se traslada principalmente por la sangre y posteriormente a los diferentes tejidos donde ejercerá su acción o bien se acumulará. En las sustancias transportadas por los alimentos, el tracto digestivo es el lugar principal de absorción y el de las sustancias muy liposolubles es habitualmente la boca. En el intestino delgado es donde se adsorben la mayor parte de los nutrientes y de otras sustancias, donde la carga iónica de las sustancias juega un papel importante en su velocidad de absorción. Debido a que el pH del intestino delgado está próximo a la neutralidad, los ácidos y las bases fuertes presentan carga, por lo tanto se absorben menos que las sustancias neutras. La absorción del intestino delgado comparada con la del grueso, es relativamente pobre; sin embargo, el intestino delgado sirve de sitio de absorción de algunas sustancias, especialmente las producidas por la fermentación bacteriana en este órgano o las que son muy liposolubles.    
+            p El tóxico se traslada principalmente por la sangre y posteriormente a los diferentes tejidos donde ejercerá su acción o bien se acumulará. En las sustancias transportadas por los alimentos, el tracto digestivo es el lugar principal de absorción y el de las sustancias muy liposolubles es habitualmente la boca. En el intestino delgado es donde se adsorben la mayor parte de los nutrientes y de otras sustancias, donde la carga iónica de las sustancias juega un papel importante en su velocidad de absorción. Debido a que el pH del intestino delgado está próximo a la neutralidad, los ácidos y las bases fuertes presentan carga, por lo tanto, se absorben menos que las sustancias neutras. La absorción del intestino delgado comparada con la del grueso, es relativamente pobre; sin embargo, el intestino delgado sirve de sitio de absorción de algunas sustancias, especialmente las producidas por la fermentación bacteriana en este órgano o las que son muy liposolubles.    
           .col-lg-3
             img(src='@/assets/curso/temas/t1/slyder2.png', alt='')
         .row.justify-content-center.align-items-center
@@ -217,7 +217,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-md-0
             h4 Eliminación
-            p Se realiza a través de la excreción de las sustancias tóxicas o de los residuos de la biotransformación mediante la orina, bilis, heces, los líquidos orgánicos, está gobernada por las respiración (aire expirado) y otras como sudor, saliva, leche materna, entre otras.
+            p Se realiza a través de la excreción de las sustancias tóxicas o de los residuos de la biotransformación mediante la orina, bilis, heces, los líquidos orgánicos, está gobernada por la respiración (aire expirado) y otras como sudor, saliva, leche materna, entre otras.
             p La excreción urinaria es la más importante de las distintas rutas por las que pueden eliminarse del organismo las sustancias tóxicas consumidas en la dieta. Esto se aplica tanto al número, como a las cantidades de sustancias excretadas. La excreción fecal es importante para los compuestos que no se han absorbido en el tracto gastroentérico o que son secretados por la bilis. En las mujeres lactantes la excreción de sustancias con la leche desempeña cierto papel en la eliminación de productos tóxicos; algunos fármacos, ciertos plaguicidas y los agentes tóxicos de los alimentos enmohecidos se excretan en parte por la leche, sin embargo, hay que considerar en estos casos el impacto de las sustancias excretadas sobre el infante alimentado.
           .col-lg-3
             img(src='@/assets/curso/temas/t1/slyder4.png', alt='')
@@ -393,7 +393,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
       .col-lg-8
         .cajon.color-primario.p-4.mb-5.bg1
-          p.mb-0 Uno de los inhibidores de más importancia es la tripsina que se encuentra en la soja. Los procesos térmicos normales de trasformación, desnaturalizan las proteínas de los vegetales y por lo tanto su efecto inhibidor. Por esta razón no suele producir ningún efecto, pero suele quedar un valor residual inhibidor del 5 al 20% cuya significación toxicológica se desconoce en la actualidad, como se presenta en la tabla 2.
+          p.mb-0 Uno de los inhibidores de más importancia es la tripsina que se encuentra en la soja. Los procesos térmicos normales de trasformación, desnaturalizan las proteínas de los vegetales y por lo tanto su efecto inhibidor. Por esta razón no suele producir ningún efecto, pero suele quedar un valor residual inhibidor del 5 al 20 % cuya significación toxicológica se desconoce en la actualidad, como se presenta en la tabla 2.
         .titulo-sexto.color-acento-contenido
           h5 Tabla 2. 
           span Inhibidores de proteasas presentes en alimentos
@@ -471,7 +471,7 @@
         .row.justify-content-center
           .col-lg-7
             h4 Ácido ascórbico oxidasa
-            p Esta enzima oxida el ácido ascórbico (vitamina c) por la presencia de oxígeno que es el que cataliza la oxidación. Se encuentra presente en muchos alimentos de origen vegetal, siendo activa en pH entre 4-6 y temperatura entre 15-30 °C. Su actividad se inhibe cuando el alimento es sometido a temperaturas más altas, por ejemplo cuando se escaldan los vegetales. Se encuentra en el pepino, calabaza, melón, col, tomate, lechuga, coliflor, espinaca, zanahoria, patata, guisantes, entre otras. También se puede evitar la acción de la antivitamina por el consumo rápido (tiempo transcurrido desde su preparación o después de abrir el envase) de los zumos de fruta. 
+            p Esta enzima oxida el ácido ascórbico (vitamina c) por la presencia de oxígeno que es el que cataliza la oxidación. Se encuentra presente en muchos alimentos de origen vegetal, siendo activa en pH entre 4-6 y temperatura entre 15-30 °C. Su actividad se inhibe cuando el alimento es sometido a temperaturas más altas, por ejemplo, cuando se escaldan los vegetales. Se encuentra en el pepino, calabaza, melón, col, tomate, lechuga, coliflor, espinaca, zanahoria, patata, guisantes, entre otras. También se puede evitar la acción de la antivitamina por el consumo rápido (tiempo transcurrido desde su preparación o después de abrir el envase) de los zumos de fruta. 
           .col-lg-4
             img(src='@/assets/curso/temas/t1/slid5.png', alt='')
         
@@ -493,9 +493,9 @@
         .row.justify-content-center.align-items-center
           .col-lg-6
             h4 Ácido fítico
-            p Este ácido impide la absorción de calcio, magnesio, hierro, cobre y zinc, además de afectar la utilización proteica por la formación de complejos insolubles. Se encuentra especialmente en cereales, leguminosas y semillas oleaginosas, trigo, maíz, arroz, avena, lenteja, soja, cacahuete y nuez. En los cereales se halla en la parte exterior, que es donde está su gran contenido en fitatos, por ejemplo en productos como el salvado, harinas, pan y pastas. 
+            p Este ácido impide la absorción de calcio, magnesio, hierro, cobre y zinc, además de afectar la utilización proteica por la formación de complejos insolubles. Se encuentra especialmente en cereales, leguminosas y semillas oleaginosas, trigo, maíz, arroz, avena, lenteja, soja, cacahuete y nuez. En los cereales se halla en la parte exterior, que es donde está su gran contenido en fitatos, por ejemplo, en productos como el salvado, harinas, pan y pastas. 
             p Se han registrado casos de retrasos en el crecimiento y maduración sexual en niños cuya dieta se basa fundamentalmente en la ingesta de pan integral total. No obstante, la reducción en la biodisponibilidad mineral se puede contrarrestar en cierta medida incrementando la ingesta de minerales esenciales y gracias al aporte suficiente de mineral existente en la mayor parte de semillas.
-            p En muchos alimentos, los niveles de fitatos pueden ser reducidos por la enzima fosfatasa, que se encuentra presente en los alimentos ricos en ácido fítico con mayor o menor actividad. Gracias a la actividad de esta enzima el ácido se hidroliza liberándose inositol y fosfato orgánico. Esta enzima presenta una actividad máxima a pH 5,5 y 60°C, con lo cual el tratamiento del alimento con ácido y/o calor favorece su hidrólisis, y gracias a ello el contenido de este ácido se reduce drásticamente durante el proceso de cocción. Las fitasas son inhibidas por cocción a más de 60 °C,por fermentación del pan con levadura química (bicarbonato) que provoca aumento de pH y por la germinación.
+            p En muchos alimentos, los niveles de fitatos pueden ser reducidos por la enzima fosfatasa, que se encuentra presente en los alimentos ricos en ácido fítico con mayor o menor actividad. Gracias a la actividad de esta enzima el ácido se hidroliza liberándose inositol y fosfato orgánico. Esta enzima presenta una actividad máxima a pH 5,5 y 60 °C, con lo cual el tratamiento del alimento con ácido y/o calor favorece su hidrólisis, y gracias a ello el contenido de este ácido se reduce drásticamente durante el proceso de cocción. Las fitasas son inhibidas por cocción a más de 60 °C,por fermentación del pan con levadura química (bicarbonato) que provoca aumento de pH y por la germinación.
           .col-lg-5
             .tarjeta.bg10.p-4.py-lg-5.mb-4
               p.mb-0 Por otra parte, el ácido fítico tiene algunos efectos beneficiosos para el organismo, tales como:
@@ -556,7 +556,7 @@
           .col-6.ps-0
             .bg-color-acento-contenido.w-fit.py-1.px-4
               h3.mb-0 Taninos
-        p Son sustancias fenólicas que se pueden diluir en agua y tienen la capacidad de precipitar alcaloides y proteínas, que dan las reacciones características de los fenoles. Están presentes en leguminosas como habas, alubias, guisantes y en muchas frutas como el banano, fundamentalmente cuando aun no están maduras; también se han identificado en el café, té, cacao y sorgo. Los efectos antinutritivos de estos compuestos se manifiestan en varios niveles:
+        p Son sustancias fenólicas que se pueden diluir en agua y tienen la capacidad de precipitar alcaloides y proteínas, que dan las reacciones características de los fenoles. Están presentes en leguminosas como habas, alubias, guisantes y en muchas frutas como el banano, fundamentalmente cuando aún no están maduras; también se han identificado en el café, té, cacao y sorgo. Los efectos antinutritivos de estos compuestos se manifiestan en varios niveles:
         ul.lista-ul--color.fa-ul.color-secundario
           li.mb-1
             i.fas.fa-check-circle

@@ -43,7 +43,7 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.justify-content-center(titulo="Multiplicación bacteriana")
             .col-md-11
-              p.mb-4 Las bacterias se multiplican pr división simple, proceso que dura de 15 a 20 minutos. Para que las bacterias puedan crecer necesitan humedad, nutrientes, una temperatura específica y un espacio de tiempo.
+              p.mb-4 Las bacterias se multiplican por división simple, proceso que dura de 15 a 20 minutos. Para que las bacterias puedan crecer necesitan humedad, nutrientes, una temperatura específica y un espacio de tiempo.
               h5 Clasificación de las bacterias:
               p Las bacterias se clasifican dependiendo de las temperaturas óptimas para su desarrollo:
               ul.lista-ul--color.fa-ul.color-primario
@@ -368,12 +368,12 @@
             | Gastroenteritis.
           li
             i.fas.fa-check-circle
-            span.mb-0 Fiebre tifoidea, la salmonella entérica #[em serovar typhi] es el agente causal de dicha fiebre.
+            span.mb-0 Fiebre tifoidea, la salmonella entérica serovar typhi es el agente causal de dicha fiebre.
         p El reservorio es el hombre. La dosis infecciosa es bajo 100 células por colonia. La transmisión es principalmente a través del agua, de alimentos contaminados y a través de manipuladores portadores. El número de afectados disminuye a medida que se trate el agua. La trasmisión es oral – fecal.
-      .tarjeta.bg7.p-4.px-lg-5(titulo="<em>Salmonella typhi</em>")
+      .tarjeta.bg7.p-4.px-lg-5(titulo="Salmonella typhi")
         p Es el agente etiológico de la fiebre tifoidea, esta enfermedad es sistemática, el período de incubación es de 7 a 10 días. Esta bacteria penetra la mucosa intestinal pasando por los nódulos linfáticos, puede ubicarse en el hígado y el bazo. Se extiende por la sangre y puede causar una septicemia, los síntomas que genera son fiebre, dolor, tos, estupor y en la segunda semana de ser contraída puede causar diarrea, dura de 3 a 4 semanas y en casos graves puede causar la muerte.
       .tarjeta.bg7.p-4.px-lg-5(titulo="Escherichia coli")
-        p Es bacilo gramnegativo, durante muchos años no se consideró patógeno pero actualmente sí. Puede llegar a los alimentos por vectores como cucarachas, moscas, contaminación cruzada y también puede trasmitirse de persona a persona. La intoxicación por Escherichia coli tiene un período de incubación de 8 a 24 horas y casi siempre es transmitida por aguas y alimentos contaminados. Algunas patogenias causadas son:
+        p Es bacilo gramnegativo, durante muchos años no se consideró patógeno, pero actualmente sí. Puede llegar a los alimentos por vectores como cucarachas, moscas, contaminación cruzada y también puede trasmitirse de persona a persona. La intoxicación por Escherichia coli tiene un período de incubación de 8 a 24 horas y casi siempre es transmitida por aguas y alimentos contaminados. Algunas patogenias causadas son:
         ul.lista-ul--color.fa-ul.color-secundario
           li.mb-1
             i.fas.fa-check-circle
@@ -391,7 +391,7 @@
         p Es un bacilo gramnegativo inmóvil que pertenece a la familia de las enterobacteriáceas. Se clasifican en cuatro grupos A, B, C y D, cada uno de los cuales tiene serotipos distintos. La trasmisión se realiza de persona a persona (los niños son los más afectados), a través del agua o de la mala manipulación de los alimentos. Las epidemias se relacionan con aguas contaminadas por aportes fecales, por ejemplo, en países en desarrollo con deficiencia en la red sanitaria.
       .tarjeta.bg7.p-4.px-lg-5(titulo="Bacillus cereus")
         p El bacillus cereus es una bacteria de bacilos grampositivos y formadora de esporas, puede presentar movilidad y flagelación peritrica. Su hábitat por lo general es el suelo, medios acuáticos o productos alimenticios como las especias en polvo y el arroz. Este b. cereus puede provocar dos tipos de gastroenteritis, la primera por una enteroxina termoestable y la segunda por una con movilidad; la termoestable es la responsable de la forma emética de la enfermedad, está causada por una toxina que es un péptido.
-        p Los síntomas que frecuentemente ocasiona la forma emética son vómitos y nauseas, en general sin fiebre, y diarrea durante 24 horas. Tiene un período de incubación de 1 a 6 horas. Se desconoce el funcionamiento de la toxina, pero puede llegar a provocar fallos hepáticos. La segunda forma que es la de movilidad se presenta con diarreas, náuseas y dolores abdominales, se producen 1 o 2 días y el período de incubación de ambas es de 8 a 16 horas y son autolimitantes.
+        p Los síntomas que frecuentemente ocasiona la forma emética son vómitos y náuseas, en general sin fiebre, y diarrea durante 24 horas. Tiene un período de incubación de 1 a 6 horas. Se desconoce el funcionamiento de la toxina, pero puede llegar a provocar fallos hepáticos. La segunda forma que es la de movilidad se presenta con diarreas, náuseas y dolores abdominales, se producen 1 o 2 días y el período de incubación de ambas es de 8 a 16 horas y son autolimitantes.
 
     .bg13.p-4.mb-5(data-aos="fade")
       .row.justify-content-center.align-items-center

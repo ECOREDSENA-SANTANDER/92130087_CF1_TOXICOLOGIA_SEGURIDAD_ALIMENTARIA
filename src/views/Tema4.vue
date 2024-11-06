@@ -115,7 +115,7 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-7.mb-3.mb-lg-0(data-aos="fade-right")
-        p Las aflatoxinas son compuestos policíclicos. Gracias a un estudio realizado mediante luz UV se detectaron sus características fluorescentes verde y azul, y las llamaron B1, B2, G1 y G2. De ellas la más tóxica es la Aflotoxin B1. Este moho puede proliferar en los alimentos a una temperatura de 27 ºC y a un AW (actividad del agua) de 0,85 superior. El metabolismo de la aflatoxina B1 se ha estudiado en múltiples especies bajo diferentes condiciones. La aflatoxina B1 se transforma en menos de 7 metabolitos. Uno de los más habituales es el metabolito M1 que se encuentra en la leche de vaca. Se ha cuantificado en un 1% la transformación de B1 en M1.
+        p Las aflatoxinas son compuestos policíclicos. Gracias a un estudio realizado mediante luz UV se detectaron sus características fluorescentes verde y azul, y las llamaron B1, B2, G1 y G2. De ellas la más tóxica es la Aflotoxin B1. Este moho puede proliferar en los alimentos a una temperatura de 27 ºC y a un AW (actividad del agua) de 0,85 superior. El metabolismo de la aflatoxina B1 se ha estudiado en múltiples especies bajo diferentes condiciones. La aflatoxina B1 se transforma en menos de 7 metabolitos. Uno de los más habituales es el metabolito M1 que se encuentra en la leche de vaca. Se ha cuantificado en un 1 % la transformación de B1 en M1.
         .tarjeta.bg7.p-4
           ul.lista-ul--color.fa-ul.color-secundario
             li
@@ -273,12 +273,12 @@
               i.fas.fa-quote-right
             .bloque-texto-d__autor 
               p.mb-0 (FAO 2003)
-        p Por su parte la toxina T2 parece ser la responsable de Aleucia Tóxica Alimentaria (ATA), frecuente en Rusia (Siberia, 1913; Urales, 1944) debido a las bajas temperaturas que necesita para desarrollarse. Esta toxina causa atrofia de la médula ósea, angina necrótica y muerte. No se puede diferenciar la toxicidad de la toxina T-2 de su metabolito, por tanto, en parte la toxicidad probablemente sea debida a éste. Por ello también se ha incluido en la ingesta tolerable provisional diaria establecida en 60 mg/kg peso corporal/día.
+        p Por su parte la toxina T2 parece ser la responsable de Aleucia Tóxica Alimentaria (ATA), frecuente en Rusia (Siberia, 1913; Urales, 1944) debido a las bajas temperaturas que necesita para desarrollarse. Esta toxina causa atrofia de la médula ósea, angina necrótica y muerte. No se puede diferenciar la toxicidad de la toxina T - 2 de su metabolito, por tanto, en parte la toxicidad probablemente sea debida a éste. Por ello también se ha incluido en la ingesta tolerable provisional diaria establecida en 60 mg / kg peso corporal / día.
 
 
     Separador
     #t_4_6.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 4.6. Toxina de Claviceps Claviceps purpurea (cornezuelos del centeno - cuerno de centeno).
+      h2 4.6. Toxina de Claviceps Claviceps purpurea (cornezuelos del centeno - cuerno de centeno)
 
     p En condiciones adecuadas de temperatura y humedad, el hongo invade grandes superficies, creando un esclerocio que es una formación ligeramente curvada de color negro a púrpura, de unos 6 cm de longitud. Esta es la fase de reposo del Claviceps (es viable en sequedad y cuando tiene humedad germina). Los causantes de la patología son alcaloides que contienen ácido lisérgico como base de su estructura. Los más importantes son ergotamina (utilizada en aplicaciones médicas), ergonovina y ergotoxina.
     p Las intoxicaciones por cornezuelo de centeno, llamada también ergotismo, son debidas al consumo de pan de centeno infectado por Claviceps.
