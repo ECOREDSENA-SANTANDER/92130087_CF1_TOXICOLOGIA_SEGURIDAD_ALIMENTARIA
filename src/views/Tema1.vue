@@ -264,51 +264,58 @@
       span Clasificación de los tóxicos en los alimentos
     .tabla-b.color-acento-contenido.mb-4(data-aos="fade-down")     
       table
-        tr
-          td.bg-white.fw-bold.text-center(rowspan="2") Endógenos
+        tr.text-center.bg-color-acento-contenido
+          th.h4 Clasificación
+          th.h4 Tipos de sustancias
+          th.h4 Ejemplos
+        tr.bg-white
+          td.fw-bold.text-center Endógenos
           td Sustancias antinutricionales.
           td 
-            ul.lista-ul--color.fa-ul.color-secundario
+            ul.lista-ul--color.fa-ul.color-secundario.mb-0
               li 
                 i.fas.fa-check-circle
                 | Inhibidores enzimáticos. Antivitaminas.
               li 
                 i.fas.fa-check-circle
                 | Sustancias que impiden la asimilación y metabolismo de minerales.
-              li 
+              li.mb-0 
                 i.fas.fa-check-circle
                 | Sustancias de actividad polivalente (taninos, fibras).
-        tr
+        tr.bg9
+          td.fw-bold.text-center Endógenos
           td 
             p.mb-4 Tóxicos de origen vegetal.
-            p Tóxicos de origen animal.
+            p.mb-0 Tóxicos de origen animal.
           td 
-            ul.lista-ul--color.fa-ul.color-secundario
+            ul.lista-ul--color.fa-ul.color-secundario.mb-0
               li 
                 i.fas.fa-check-circle
                 | Glucósidos tóxicos, lectinas, saponinas, aminoácidos tóxicos, hemaglutininas, favismo, alcaloides.
-              li 
+              li.mb-0 
                 i.fas.fa-check-circle
                 |  Saxitoxina, tetramina, tetrodotoxina, ciguatoxina, escombrotoxina.  
-        tr
-          td.bg-white.fw-bold.text-center(rowspan="4") Exógenos 
-          td.bg-white Aditivos.
-          td.bg-white
-            ul.lista-ul--color.fa-ul.color-secundario
-              li 
+        tr.bg-white
+          td.fw-bold.text-center Exógenos 
+          td Aditivos.
+          td
+            ul.lista-ul--color.fa-ul.color-secundario.mb-0
+              li.mb-0 
                 i.fas.fa-check-circle
                 | Edulcorantes sintéticos, colorantes, conservantes, antioxidantes, aromatizantes.
-        tr
+        tr.bg9
+          td.fw-bold.text-center Exógenos 
           td.bg9 Sustancias tóxicas de origen bacteriano y fúngico.
           td.bg9 
-            ul.lista-ul--color.fa-ul.color-secundario
-              li 
+            ul.lista-ul--color.fa-ul.color-secundario.mb-0
+              li.mb-0 
                 i.fas.fa-check-circle
                 | Bacterias, hongos, virus, micotoxinas (aflatoxinas, ocratoxinas, entre otras).
-        tr
+        tr.bg-white
+          td.fw-bold.text-center Exógenos 
           td.bg-white Tóxicos generados durante la preparación, procesado y almacenamiento de los alimentos.
           td.bg-white 
-            ul.lista-ul--color.fa-ul.color-secundario
+            ul.lista-ul--color.fa-ul.color-secundario.mb-0
               li 
                 i.fas.fa-check-circle
                 | Tóxicos pirogénicos: hidrocarburos aromáticos policíclicos y aminas heterocíclicas.
@@ -321,13 +328,14 @@
               li 
                 i.fas.fa-check-circle
                 | Toxicidad derivada de la conservación de alimentos.
-              li 
+              li.mb-0 
                 i.fas.fa-check-circle
                 | Toxicidad de los materiales en contacto con los alimentos.
-        tr
+        tr.bg9
+          td.fw-bold.text-center Exógenos 
           td.bg9 Sustancias tóxicas procedentes de la contaminación ambiental.
           td.bg9
-            ul.lista-ul--color.fa-ul.color-secundario
+            ul.lista-ul--color.fa-ul.color-secundario.mb-0
               li 
                 i.fas.fa-check-circle
                 | Metales pesados (plomo, mercurio, cadmio, arsénico, selenio, cobre).
@@ -340,7 +348,7 @@
               li 
                 i.fas.fa-check-circle
                 | Residuos de producción agrícola y ganadera: plaguicidas (organofosforados, organoclorados, carbamatos, piretrinas y piretroides).
-              li 
+              li.mb-0
                 i.fas.fa-check-circle
                 | Residuos de productos farmacológicos (antibióticos, betaagonistas, coccidiostatos, anabolizantes y antiparasitarios).
              

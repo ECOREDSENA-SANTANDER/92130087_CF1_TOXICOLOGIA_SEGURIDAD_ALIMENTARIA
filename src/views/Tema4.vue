@@ -127,7 +127,7 @@
             li
               i.fas.fa-check-circle
               | En base a estos datos se ha legislado la cantidad de aflatoxina en alimentos y piensos (concentrado para animales).
-      .col-lg-5(data-aos="fade-left")
+      .col-lg-5.col-md-9(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/t4/fig.svg', alt='')
         figcaption Fuente: SENA (2012)
@@ -139,31 +139,16 @@
 
     p.mb-4 Son metabolitos producidos principalmente por especies de Aspergillus y Penicillium. La micotoxina más importante es la OTA, llamada Ocratoxina A. La contaminación con OTA se ha observado en granos de cereales y granos de café verde, productos de carne fermentada y vinos.
 
-    .row.justify-content-center(data-aos="fade-down")
-      .col-lg-5
-        img.mb-4(src='@/assets/curso/temas/t4/fig-44.svg', alt='')
-        .tabla-b.color-acento-contenido.mb-5
+    .row.justify-content-center.align-items-center(data-aos="fade-down")
+      .col-lg-4.col-md-6
+        img.mb-3.mb-md-0(src='@/assets/curso/temas/t4/fig-44.svg', alt='')
+      .col-lg-5.col-md-6
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 7. 
+          span Ocratoxinas
+        .tabla-b.color-acento-contenido          
           table.text-center
             caption Fuente: SENA (2012)
-            tr.fw-bold
-              td.bg-white Ocratoxina
-              td.bg9 X
-              td.bg9 R
-            tr
-              td.fw-bold A
-              td α
-              td H
-            tr
-              td.fw-bold B
-              td H
-              td H
-            tr
-              td.fw-bold C
-              td α
-              td 
-                span CH#[sub 2] - CH#[sub 3]
-        .tabla-b.color-acento-contenido
-          table.text-center
             tr
               td.bg-color-acento-contenido.h4 Climas cálidos tropicales
               td.bg-color-acento-contenido.h4 Climas templados
@@ -191,7 +176,13 @@
 
     .row.justify-content-center(data-aos="fade-down")
       .col-lg-6.mb-4
-        img.mb-4(src='@/assets/curso/temas/t4/fig-45-1.svg', alt='')
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 7. 
+          span Tricotecenos
+        img.mb-4(src='@/assets/curso/temas/t4/fig-45-1.svg', alt='La imagen presenta la organización molecular del compuesto y adicionalmente su información y formulas químicas.')
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 8. 
+          span Tricotecenos - composición
         .tabla-b.color-acento-contenido.mb-5
           table.text-center
             caption Fuente: SENA (2012)
@@ -226,7 +217,13 @@
               td -OH
               td =O
       .col-lg-6.mb-4
-        img.mb-4(src='@/assets/curso/temas/t4/fig-45-2.svg', alt='')
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 8. 
+          span Cearalenona
+        img.mb-4(src='@/assets/curso/temas/t4/fig-45-2.svg', alt='La imagen presenta la estructura química del compuesto y adicionalmente su información y derivados.')
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 9. 
+          span Cearalenona y sus derivados producidos por Fusarium
         .tabla-b.color-acento-contenido.mb-5
           table.text-center
             caption Fuente: SENA (2012)

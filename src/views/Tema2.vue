@@ -292,10 +292,20 @@
     p La contaminación por microorganismos de la superficie de los animales durante la manipulación en el sacrificio se puede presentar en:      
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-lg-5.mb-3.mb-lg-0
+      .col-lg-5.mb-2
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 2. 
+          span Contaminación en piel y pezuñas
         img(src='@/assets/curso/temas/t2/fig22-1.svg', alt='Contaminación en piel y pezuñas: Microorganismos patógenos: Suelo, Estiércoles, Piensos, Agua.')
-      .col-lg-7
+        figcaption.d-block.d-lg-none Fuente: SENA
+      .col-lg-7.mb-2
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 3. 
+          span Microorganismos responsables de la zoonosis
         img(src='@/assets/curso/temas/t2/fig22-2.svg', alt='Microorganismos responsables de la zoonosis: Bacterias: Gramnegativas son Brucella, Salmonella, Campylobacter, Escherichia coli. Grampositivas son Mycobacterium tuberculosis, Listeria monocytogenes, Streptococcus emoliticus.')
+        figcaption.d-block.d-lg-none Fuente: SENA
+      .col-12.d-none.d-lg-block
+        figcaption Fuente: SENA
 
     .subt(data-aos='fade-right')
       .row.align-items-center.mb-4
@@ -304,11 +314,14 @@
         .col-auto.ps-0
           h3.mb-0.pe-4.pe-lg-5 Aves de corral
     
-    p Se pueden presentar en el tejido muscular, la piel adherida, el tejido conectivo y los organismos comestibles de las aves domésticas y de corral:
+    p.mb-4 Se pueden presentar en el tejido muscular, la piel adherida, el tejido conectivo y los organismos comestibles de las aves domésticas y de corral:
 
     .row.justify-content-center.mb-5
-      .col-lg-9
-        .bg12.p-4.p-lg-5.mb-4
+      .col-lg-9.mb-5
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 4. 
+          span Microbiota normal
+        .bg12.p-4.p-lg-5.mb-2
           img.mb-5(src='@/assets/curso/temas/t2/fig22-3.svg', alt='Microbiota normal: Bacterias Levaduras: Gramnegativas son Pseudomonas, Alteromonas, Aeromonas, Proteus. Grampositivas es Corynebacterium.')
           .row.justify-content-center
             .col-lg-8
@@ -318,8 +331,19 @@
               p.mb-0.align-items-center.d-flex #[b Viseras] 
                 i.fas.fa-long-arrow-alt-right.flecha      
                 | Pueden portar bacterias entéricas.
-        img.mb-4(src='@/assets/curso/temas/t2/fig22-4.svg', alt='Bacterias: Gramnegativas son Salmonella, Campylobacter, Yersinia. Grampositivas son Clostridium perfringens (Temperatura > 15 °C), Staphylococcus aureus.')
-        img(src='@/assets/curso/temas/t2/fig22-5.svg', alt='Huevos: Contaminación de la cáscara debido a Intestino de las aves, Material de almacenamiento (cambios de temperatura y humedad), Manipuladores de alimentos.')
+        figcaption Fuente: SENA
+      .col-lg-9.mb-5
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 5. 
+          span Bacterias
+        img.mb-2(src='@/assets/curso/temas/t2/fig22-4.svg', alt='Bacterias: Gramnegativas son Salmonella, Campylobacter, Yersinia. Grampositivas son Clostridium perfringens (Temperatura > 15 °C), Staphylococcus aureus.')
+        figcaption Fuente: SENA
+      .col-lg-9.mb-5
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 6. 
+          span Huevos - contaminación de la cascara
+        img.mb-2(src='@/assets/curso/temas/t2/fig22-5.svg', alt='Huevos: Contaminación de la cáscara debido a Intestino de las aves, Material de almacenamiento (cambios de temperatura y humedad), Manipuladores de alimentos.')
+        figcaption Fuente: SENA
 
     .subt(data-aos='fade-right')
       .row.align-items-center.mb-4
@@ -420,7 +444,7 @@
             .text.p-lg-4.p-3
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xxl-4
                 h4.mt-4.mb-3 Patología
-                p La intoxicación produce parálisis facial, dificultad de deglutir y hablar, debilidad progresiva con parálisis, nauseas, vómitos, cólicos abdominales, boca seca, diplopía (visión doble) y dificultad respiratoria que puede terminar en una insuficiencia respiratoria, usualmente no presenta fiebre, los síntomas aparecen de 8 a 28 horas después de consumidos los alimentos.
+                p La intoxicación produce parálisis facial, dificultad de deglutir y hablar, debilidad progresiva con parálisis, náuseas, vómitos, cólicos abdominales, boca seca, diplopía (visión doble) y dificultad respiratoria que puede terminar en una insuficiencia respiratoria, usualmente no presenta fiebre, los síntomas aparecen de 8 a 28 horas después de consumidos los alimentos.
       .col-lg-4.col-md-8.col-11.mb-3.mb-md-0
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.px-0(@mouseover="mostrarIndicador2 = false")
