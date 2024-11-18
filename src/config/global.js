@@ -85,7 +85,7 @@ export default {
           },
           {
             numero: '2.3',
-            titulo: 'FLas enterobacterias y los alimentos',
+            titulo: 'Las enterobacterias y los alimentos',
             hash: 't_2_3',
           },
         ],
