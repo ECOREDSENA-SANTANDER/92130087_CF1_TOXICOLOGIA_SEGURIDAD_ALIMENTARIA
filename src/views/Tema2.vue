@@ -24,7 +24,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7(data-aos="fade-right")
-        p Los microorganismos, son organismos muy pequeños que sólo se pueden observar con equipos especiales como el microscopio. Estos organismos son unicelulares, lo que quiere decir que están formados por una sola célula.
+        p Los microorganismos, son organismos muy pequeños que solo se pueden observar con equipos especiales como el microscopio. Estos organismos son unicelulares, lo que quiere decir que están formados por una sola célula.
         p Se pueden clasificar en bacterias, hongos y virus, que abundan en la tierra haciendo parte de todos los ambientes. Por ejemplo, las bacterias son microorganismos que juegan un papel muy importante en la flora intestinal; estos necesitan de un medio idóneo para poder proliferar como son los nutrientes y una temperatura adecuada, si esto es apropiado se reproducen con facilidad produciendo toxinas que convierten un alimento inocuo en peligroso.
       .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t2/img2.png', alt='')
@@ -68,7 +68,7 @@
                   | Microorganismos que alteran el alimento.
                 li
                   i.fas.fa-check-circle
-                  | Microorganismos infecciosos trasmitidos por los alimentos.
+                  | Microorganismos infecciosos transmitidos por los alimentos.
               h5 Principales vías de transmisión de microorganismos hallados en los alimentos:
               .row
                 .col-lg-4.col-md-6
@@ -385,7 +385,7 @@
 
     TabsA.color-acento-botones.mb-5
       .tarjeta.bg7.p-4.px-lg-5(titulo="Salmonella entérica")
-        p Serovar enteritidis, su trasmisión se realiza por comida o agua contaminada (huevos y carne), el período de incubación es de 6 a 48 horas y dura de 2 a 5 días. Es la causante de enfermedades por toxoinfección alimentaria muy importantes como:
+        p Serovar enteritidis, su transmisiónse realiza por comida o agua contaminada (huevos y carne), el período de incubación es de 6 a 48 horas y dura de 2 a 5 días. Es la causante de enfermedades por toxoinfección alimentaria muy importantes como:
         ul.lista-ul--color.fa-ul.color-secundario
           li.mb-1
             i.fas.fa-check-circle
@@ -393,11 +393,11 @@
           li
             i.fas.fa-check-circle
             span.mb-0 Fiebre tifoidea, la salmonella entérica serovar typhi es el agente causal de dicha fiebre.
-        p El reservorio es el hombre. La dosis infecciosa es bajo 100 células por colonia. La transmisión es principalmente a través del agua, de alimentos contaminados y a través de manipuladores portadores. El número de afectados disminuye a medida que se trate el agua. La trasmisión es oral – fecal.
+        p El reservorio es el hombre. La dosis infecciosa es bajo 100 células por colonia. La transmisión es principalmente a través del agua, de alimentos contaminados y a través de manipuladores portadores. El número de afectados disminuye a medida que se trate el agua. La transmisiónes oral – fecal.
       .tarjeta.bg7.p-4.px-lg-5(titulo="Salmonella typhi")
         p Es el agente etiológico de la fiebre tifoidea, esta enfermedad es sistemática, el período de incubación es de 7 a 10 días. Esta bacteria penetra la mucosa intestinal pasando por los nódulos linfáticos, puede ubicarse en el hígado y el bazo. Se extiende por la sangre y puede causar una septicemia, los síntomas que genera son fiebre, dolor, tos, estupor y en la segunda semana de ser contraída puede causar diarrea, dura de 3 a 4 semanas y en casos graves puede causar la muerte.
       .tarjeta.bg7.p-4.px-lg-5(titulo="Escherichia coli")
-        p Es bacilo gramnegativo, durante muchos años no se consideró patógeno, pero actualmente sí. Puede llegar a los alimentos por vectores como cucarachas, moscas, contaminación cruzada y también puede trasmitirse de persona a persona. La intoxicación por Escherichia coli tiene un período de incubación de 8 a 24 horas y casi siempre es transmitida por aguas y alimentos contaminados. Algunas patogenias causadas son:
+        p Es bacilo gramnegativo, durante muchos años no se consideró patógeno, pero actualmente sí. Puede llegar a los alimentos por vectores como cucarachas, moscas, contaminación cruzada y también puede transmitirse de persona a persona. La intoxicación por Escherichia coli tiene un período de incubación de 8 a 24 horas y casi siempre es transmitida por aguas y alimentos contaminados. Algunas patogenias causadas son:
         ul.lista-ul--color.fa-ul.color-secundario
           li.mb-1
             i.fas.fa-check-circle
@@ -412,10 +412,10 @@
             i.fas.fa-check-circle
             | Meningitis.
       .tarjeta.bg7.p-4.px-lg-5(titulo="Shigella spp")
-        p Es un bacilo gramnegativo inmóvil que pertenece a la familia de las enterobacteriáceas. Se clasifican en cuatro grupos A, B, C y D, cada uno de los cuales tiene serotipos distintos. La trasmisión se realiza de persona a persona (los niños son los más afectados), a través del agua o de la mala manipulación de los alimentos. Las epidemias se relacionan con aguas contaminadas por aportes fecales, por ejemplo, en países en desarrollo con deficiencia en la red sanitaria.
+        p Es un bacilo gramnegativo inmóvil que pertenece a la familia de las enterobacteriáceas. Se clasifican en cuatro grupos A, B, C y D, cada uno de los cuales tiene serotipos distintos. La transmisión se realiza de persona a persona (los niños son los más afectados), a través del agua o de la mala manipulación de los alimentos. Las epidemias se relacionan con aguas contaminadas por aportes fecales, por ejemplo, en países en desarrollo con deficiencia en la red sanitaria.
       .tarjeta.bg7.p-4.px-lg-5(titulo="Bacillus cereus")
-        p El bacillus cereus es una bacteria de bacilos grampositivos y formadora de esporas, puede presentar movilidad y flagelación peritrica. Su hábitat por lo general es el suelo, medios acuáticos o productos alimenticios como las especias en polvo y el arroz. Este b. cereus puede provocar dos tipos de gastroenteritis, la primera por una enteroxina termoestable y la segunda por una con movilidad; la termoestable es la responsable de la forma emética de la enfermedad, está causada por una toxina que es un péptido.
-        p Los síntomas que frecuentemente ocasiona la forma emética son vómitos y náuseas, en general sin fiebre, y diarrea durante 24 horas. Tiene un período de incubación de 1 a 6 horas. Se desconoce el funcionamiento de la toxina, pero puede llegar a provocar fallos hepáticos. La segunda forma que es la de movilidad se presenta con diarreas, náuseas y dolores abdominales, se producen 1 o 2 días y el período de incubación de ambas es de 8 a 16 horas y son autolimitantes.
+        p El bacillus cereus es una bacteria de bacilos grampositivos y formadora de esporas, puede presentar movilidad y flagelación peritrica. Su hábitat por lo general, es el suelo, medios acuáticos o productos alimenticios como las especias en polvo y el arroz. Este b. cereus puede provocar dos tipos de gastroenteritis, la primera por una enteroxina termoestable y la segunda por una con movilidad; la termoestable es la responsable de la forma emética de la enfermedad, está causada por una toxina que es un péptido.
+        p Los síntomas que frecuentemente ocasiona la forma emética son vómitos y náuseas, en general sin fiebre, y diarrea durante 24 horas. Tiene un período de incubación de 1 a 6 horas. Se desconoce el funcionamiento de la toxina, pero puede llegar a provocar fallos hepáticos. La segunda forma, que es la de movilidad, se presenta con diarreas, náuseas y dolores abdominales, se producen 1 o 2 días y el período de incubación de ambas es de 8 a 16 horas y son autolimitantes.
 
     .bg13.p-4.mb-5(data-aos="fade")
       .row.justify-content-center.align-items-center
@@ -432,7 +432,7 @@
         .bg1.p-4.px-lg-5.h-100
           .bg-color-acento-contenido.w-fit.py-1.px-2.mb-4
             h4.mb-0 Botulismo
-          p.mb-0 Se genera por la bacteria clostridium botulinum, que es un bacilo grampositivo neurotoxigénico formador de esporas y anaerobio, lo que quiere decir que no necesita oxígeno para crecer. Se desarrolla en medios fermentados de azucares y aminoácidos, su hábitat más frecuente es el suelo. Algunos de estos microorganismos son muy importantes patógenos en el hombre, pero también algunos se usan en la industria. Su transmisión es por la ingesta de alimentos en mal estado donde se acumulan las toxinas; en los niños e botulismo se da por ingerir alimentos que contienen la bacteria que excretan toxinas, pero también se puede trasmitir por enlatados, conservas y embutidos de productos cárnicos.
+          p.mb-0 Se genera por la bacteria clostridium botulinum, que es un bacilo grampositivo neurotoxigénico formador de esporas y anaerobio, lo que quiere decir que no necesita oxígeno para crecer. Se desarrolla en medios fermentados de azúcares y aminoácidos, su hábitat más frecuente es el suelo. Algunos de estos microorganismos son muy importantes patógenos en el hombre, pero también algunos se usan en la industria. Su transmisión es por la ingesta de alimentos en mal estado donde se acumulan las toxinas; en los niños e botulismo se da por ingerir alimentos que contienen la bacteria que excretan toxinas, pero también se puede transmitir por enlatados, conservas y embutidos de productos cárnicos.
 
 
     .row.justify-content-center(data-aos="fade-down")

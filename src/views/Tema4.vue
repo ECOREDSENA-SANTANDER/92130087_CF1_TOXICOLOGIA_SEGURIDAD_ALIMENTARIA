@@ -115,7 +115,7 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-7.mb-3.mb-lg-0(data-aos="fade-right")
-        p Las aflatoxinas son compuestos policíclicos. Gracias a un estudio realizado mediante luz UV se detectaron sus características fluorescentes verde y azul, y las llamaron B1, B2, G1 y G2. De ellas la más tóxica es la Aflotoxin B1. Este moho puede proliferar en los alimentos a una temperatura de 27 ºC y a un AW (actividad del agua) de 0,85 superior. El metabolismo de la aflatoxina B1 se ha estudiado en múltiples especies bajo diferentes condiciones. La aflatoxina B1 se transforma en menos de 7 metabolitos. Uno de los más habituales es el metabolito M1 que se encuentra en la leche de vaca. Se ha cuantificado en un 1 % la transformación de B1 en M1.
+        p Las aflatoxinas son compuestos policíclicos. Gracias a un estudio realizado mediante luz UV, se detectaron sus características fluorescentes verde y azul, y las llamaron B1, B2, G1 y G2. De ellas, la más tóxica es la Aflotoxin B1. Este moho puede proliferar en los alimentos a una temperatura de 27 ºC y a un AW (actividad del agua) de 0,85 superior. El metabolismo de la aflatoxina B1 se ha estudiado en múltiples especies bajo diferentes condiciones. La aflatoxina B1 se transforma en menos de 7 metabolitos. Uno de los más habituales es el metabolito M1 que se encuentra en la leche de vaca. Se ha cuantificado en un 1 % la transformación de B1 en M1.
         .tarjeta.bg7.p-4
           ul.lista-ul--color.fa-ul.color-secundario
             li
@@ -123,7 +123,7 @@
               | Entre los efectos destacados, cabe citar lesiones hepáticas con edema, proliferación biliar y necrosis de células.
             li
               i.fas.fa-check-circle
-              | Los efectos crónicos y agudos de las aflatoxinas varían de unas especies a otras. En las especies más sensibles desarrollan tumores.
+              | Los efectos crónicos y agudos de las aflatoxinas varían de unas especies a otras. En las especies más sensibles, desarrollan tumores.
             li
               i.fas.fa-check-circle
               | En base a estos datos se ha legislado la cantidad de aflatoxina en alimentos y piensos (concentrado para animales).
@@ -270,7 +270,7 @@
               i.fas.fa-quote-right
             .bloque-texto-d__autor 
               p.mb-0 (FAO 2003)
-        p Por su parte la toxina T2 parece ser la responsable de Aleucia Tóxica Alimentaria (ATA), frecuente en Rusia (Siberia, 1913; Urales, 1944) debido a las bajas temperaturas que necesita para desarrollarse. Esta toxina causa atrofia de la médula ósea, angina necrótica y muerte. No se puede diferenciar la toxicidad de la toxina T - 2 de su metabolito, por tanto, en parte la toxicidad probablemente sea debida a éste. Por ello también se ha incluido en la ingesta tolerable provisional diaria establecida en 60 mg / kg peso corporal / día.
+        p Por su parte, la toxina T2 parece ser la responsable de Aleucia Tóxica Alimentaria (ATA), frecuente en Rusia (Siberia, 1913; Urales, 1944) debido a las bajas temperaturas que necesita para desarrollarse. Esta toxina causa atrofia de la médula ósea, angina necrótica y muerte. No se puede diferenciar la toxicidad de la toxina T - 2 de su metabolito, por tanto, en parte la toxicidad probablemente sea debida a este. Por ello, también se ha incluido en la ingesta tolerable provisional diaria establecida en 60 mg / kg peso corporal / día.
 
 
     Separador
@@ -311,7 +311,7 @@
           .col-lg-2.col-md-2.col-9.mb-3.mb-lg-0
             img(src='@/assets/curso/temas/t4/img9.svg', alt='')
           .col-lg-10.col-md-10
-            p.mb-0 La patulina se encuentra en frutas, verduras, cereales y piensos. Al parecer podría provocar alteración de la barrera de las células del epitelio intestinal induciendo daños y degeneración, hemorragias e inflamación. Se ha demostrado carcinogénesis en ratas y teratogenia en pollos.
+            p.mb-0 La patulina se encuentra en frutas, verduras, cereales y piensos. Al parecer, podría provocar alteración de la barrera de las células del epitelio intestinal, induciendo daños y degeneración, hemorragias e inflamación. Se ha demostrado carcinogénesis en ratas y teratogenia en pollos.
         .cajon.color-primario.bg1.p-4.mb-4
           p.mb-0 Un indicador de la mala práctica de fabricación sería el uso de materias primas florecidas (germinadas). Las temperaturas moderadas, elevada humedad y pH bajo son factores que favorecen el crecimiento de estos hongos implicados en la formación de la patulina.
 

@@ -15,8 +15,8 @@
           .col-lg-2
             img(src='@/assets/curso/temas/t1/manzana.svg', alt='')
           .col-lg-10
-            p Los antinutrientes, son sustancias que pueden producir problemas nutricionales y de salud al ser humano que las consume regularmente, por cuanto disminuyen o impiden la capacidad de asimilación de nutrientes. 
-        p Se introdujeron en la alimentación humana, a través de los cultivos para proteger semillas de plagas principalmente. Estas sustancias deben ser transformadas para evitar problemas de salud, por lo cual, a lo largo de los años, el ser humano fue desarrollando técnicas para eliminarlas o transformarlas sin embargo hoy en día, estas prácticas están en su mayoría perdidas.
+            p Los antinutrientes, son sustancias que pueden producir problemas nutricionales y de salud al ser humano, que las consume regularmente, por cuanto disminuyen o impiden la capacidad de asimilación de nutrientes. 
+        p Se introdujeron en la alimentación humana, a través de los cultivos para proteger semillas de plagas principalmente. Estas sustancias deben ser transformadas para evitar problemas de salud, por lo cual, a lo largo de los años, el ser humano fue desarrollando técnicas para eliminarlas o transformarlas sin embargo, hoy en día, estas prácticas están en su mayoría perdidas.
         .cajon.color-primario.bg1.p-4.mb-4
           p.mb-0 El consumo diario de alimentos con alto contenido de antinutrientes como cereales, legumbres y semillas que no han sido transformados adecuadamente, se encuentran relacionados con diversos problemas digestivos y falta de apetito, dientes cariados y débiles, raquitismo, alergias, deficiencias nutricionales como la anemia o la osteoporosis y problemas en el sistema inmunológico. (Foerster, 2012)
 
@@ -29,7 +29,7 @@
       .col-lg-1
         img(src='@/assets/curso/temas/t1/icono.svg', alt='')
       .col-lg-11
-        p Puede definirse como el estudio de los efectos adversos de sustancias extrañas en los organismos vivos; se basa en conocimientos químicos y biológicos, con el objetivo de hallar explicaciones detalladas a los efectos tóxicos. Uno de los conceptos fundamentales de la toxicología es que sólo la dosis, como observó Paracelso (1943-1541) “todas las sustancias son venenosas; no hay ninguna que no sea tóxica. La dosis es lo que diferencia al veneno del remedio”. 
+        p Puede definirse como el estudio de los efectos adversos de sustancias extrañas en los organismos vivos; se basa en conocimientos químicos y biológicos, con el objetivo de hallar explicaciones detalladas a los efectos tóxicos. Uno de los conceptos fundamentales de la toxicología es que solo la dosis, como observó Paracelso (1943-1541) “todas las sustancias son venenosas; no hay ninguna que no sea tóxica. La dosis es lo que diferencia al veneno del remedio”. 
     
     .row.align-items-center.mb-4
       .col-lg-9(data-aos="fade-right")
@@ -39,7 +39,7 @@
           .col-lg-7.ps-lg-0
             .bg1.p-4.h-100
               h4.bgtitulo1.mb-3.py-1.ps-3.pe-5 Por tanto, la respuesta a la pregunta ¿es esta sustancia tóxica?
-              p Será siempre: si se toma una dosis suficiente para que lo sea. Por esta razón dos de los objetivos fundamentales de la toxicología son cuantificar e interpretar la toxicidad de las sustancias. 
+              p Será siempre: si se toma una dosis suficiente para que lo sea. Por esta razón, dos de los objetivos fundamentales de la toxicología son cuantificar e interpretar la toxicidad de las sustancias. 
       .col-lg-3(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img2.png', alt='')
     
@@ -49,7 +49,7 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/t1/img4.png')})`}")
       .bloque-texto-g__texto.p-4
-        p.mb-0 Los datos de dosis - respuesta y en particular la información sobre la toxicidad aguda de las sustancias, se indica a menudo como respuesta acumulativa frente a las dosis. En este caso se suministran a grupos de individuos varias cantidades de la sustancia y se anota el porcentaje de los mismos que responden positivamente. En el caso de la dosis letal, se apunta el número de seres que mueren. En el caso de una respuesta no terminal, se escribe el número de los individuos que responden al menos a una de las dosis. Previamente se establece experimentalmente el intervalo de porción en el que tiene lugar la respuesta de interés. Los datos se representan como porcentaje acumulativo de individuos que responden en la forma deseada frente a la dosis.
+        p.mb-0 Los datos de dosis - respuesta y en particular, la información sobre la toxicidad aguda de las sustancias, se indica a menudo como respuesta acumulativa frente a las dosis. En este caso se suministran a grupos de individuos varias cantidades de la sustancia y se anota el porcentaje de los mismos que responden positivamente. En el caso de la dosis letal, se apunta el número de seres que mueren. En el caso de una respuesta no terminal, se escribe el número de los individuos que responden al menos a una de las dosis. Previamente, se establece experimentalmente el intervalo de porción en el que tiene lugar la respuesta de interés. Los datos se representan como porcentaje acumulativo de individuos que responden en la forma deseada frente a la dosis.
 
     .row.mb-4(data-aos="fade-down")
       .col-12
@@ -69,7 +69,7 @@
         .col-lg-2
           img(src='@/assets/curso/temas/t1/icono2.svg', alt='')
         .col-lg-10
-          p.mb-0 La seguridad absoluta de una sustancia no puede explicarse puesto que la demostración ha de basarse en una evidencia negativa, es decir, en la falta de peligro o de daño debido a tal sustancia. Estadísticamente siempre existe la posibilidad que el experimento siguiente demuestre que el producto no es seguro. Así el concepto de seguridad se ha desarrollado con el transcurso del tiempo e inicialmente se podía considerar segura una sustancia si se consumía sin que ocasionase la muerte inmediata o una lesión aguda. Los conocimientos actuales de los efectos tóxicos y la capacidad de comprobarlos han aumentado hasta un punto, en el que se considera relativamente segura a una sustancia si no se producen efectos adversos en determinados efectos biológicos.
+          p.mb-0 La seguridad absoluta de una sustancia no puede explicarse, puesto que la demostración ha de basarse en una evidencia negativa, es decir, en la falta de peligro o de daño debido a tal sustancia. Estadísticamente, siempre existe la posibilidad que el experimento siguiente demuestre que el producto no es seguro. Así, el concepto de seguridad se ha desarrollado con el transcurso del tiempo e inicialmente se podía considerar segura una sustancia si se consumía sin que ocasionase la muerte inmediata o una lesión aguda. Los conocimientos actuales de los efectos tóxicos y la capacidad de comprobarlos han aumentado hasta un punto, en el que se considera relativamente segura a una sustancia si no se producen efectos adversos en determinados efectos biológicos.
     
     .row.mb-5(data-aos="fade-down")
       .col-lg-5
@@ -78,9 +78,9 @@
       .col-lg-3
         img(src='@/assets/curso/temas/t1/img5.svg', alt='')
       .col-lg-4
-        p.mb-0 La DL#[SUB 50] es un valor determinado estadísticamente y representa el valor de la dosis necesaria para producir la muerte del 50 % de los organismos experimentales. El porcentaje de la DL#[SUB 50] debe acompañarse siempre de alguna cifra o valor de la estimación del error. El intervalo de probabilidad, o valor p, que es el más utilizado, acepta que debe ser menor de 0,05. Este valor indica que si se repitiesen 100 veces el experimento en 95 ocasiones se obtendría la misma DL#[SUB 50].
+        p.mb-0 La DL#[SUB 50] es un valor determinado estadísticamente y representa el valor de la dosis necesaria para producir la muerte del 50 % de los organismos experimentales. El porcentaje de la DL#[SUB 50] debe acompañarse siempre de alguna cifra o valor de la estimación del error. El intervalo de probabilidad, o valor p, que es el más utilizado, acepta que debe ser menor de 0,05. Este valor indica que si se repitiesen 100 veces el experimento, en 95 ocasiones se obtendría la misma DL#[SUB 50].
 
-    p.mb-4 Aunque cada sustancia presenta una curva de dosis letal - respuesta, hay muchas diferencias en las DL#[SUB 50] de diferentes sustancias. Por ejemplo, la DL#[SUB 50] de la cafeína se ha estimado en unos 200 mg / kg de peso corporal; la de la toxina botulínica, una de las sustancias más tóxicas que se conocen, se ha estimado en unos 100 mg / kg. Por otra parte, la sal o cloruro sódico presenta una DL#[SUB 50] estimada de 40 mg / kg. Como norma general las sustancias con DL#[SUB 50] de 1 mg o menos deben considerarse muy tóxicas, aquellas que se encuentran entre 1-50 mg / kg como altamente tóxicas y las que presentan un rango de entre 50 y 500 mg / kg como moderadamente tóxicas.
+    p.mb-4 Aunque cada sustancia presenta una curva de dosis letal - respuesta, hay muchas diferencias en las DL#[SUB 50] de diferentes sustancias. Por ejemplo, la DL#[SUB 50] de la cafeína se ha estimado en unos 200 mg / kg de peso corporal; la de la toxina botulínica, una de las sustancias más tóxicas que se conocen, se ha estimado en unos 100 mg / kg. Por otra parte, la sal o cloruro sódico presenta una DL#[SUB 50] estimada de 40 mg / kg. Como norma general, las sustancias con DL#[SUB 50] de 1 mg o menos deben considerarse muy tóxicas, aquellas que se encuentran entre 1-50 mg / kg como altamente tóxicas y las que presentan un rango de entre 50 y 500 mg / kg como moderadamente tóxicas.
 
     .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
       .bloque-texto-g__img(
@@ -108,14 +108,14 @@
       .col-lg-6(data-aos="fade-right")
         LineaTiempoD.color-acento-contenido.t1
           p(numero="1" titulo="Toxicidad aguda") (Establece una dosis única elevada).          
-          p(numero="2" titulo="Toxicidad subaguda y crónica") Mediante la ingesta de una dosis permanente. En el caso de la subaguda se administra diariamente en dosis de la sustancia inferiores a la DL#[SUB 50], durante un periodo de mínimo 3 meses. Se diferencia de los estudios de toxicidad crónica porque se administran por un periodo más largo de tiempo en 1 ó 2 años.          
+          p(numero="2" titulo="Toxicidad subaguda y crónica") Mediante la ingesta de una dosis permanente. En el caso de la subaguda, se administra diariamente en dosis de la sustancia inferiores a la DL#[SUB 50], durante un periodo de mínimo 3 meses. Se diferencia de los estudios de toxicidad crónica porque se administran por un periodo más largo de tiempo en 1 o 2 años.          
           p(numero="3" titulo="Genotoxicidad y mutagénesis") Estudian la capacidad que tienen algunas sustancias de alterar componentes genéticos (DNA). Leratogénesis analiza si la sustancia tiene capacidad para generar efectos tóxicos sobre el embrión o el feto.          
           p(numero="4" titulo="Carcinogénesis") Estudia si la sustancia puede dar lugar al desarrollo de tumores.
           p(numero="5" titulo="Sobre la reproducción") Estudia si la sustancia tiene capacidad para generar efectos sobre la fertilidad, la gestación y la descendencia. 
       .col-lg-6(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img8.png', alt='')
     
-    p Todos estos estudios determinan que la inclusión de una nueva sustancia en el mercado sea lenta o rápida, siendo esta una forma de garantizar la inocuidad para los seres humanos. Normalmente estos estudios son llevados a cabo por organismos internacionales como el comité mixto de la FAO y OMS o la OCDE.
+    p Todos estos estudios determinan que la inclusión de una nueva sustancia en el mercado sea lenta o rápida, siendo esta una forma de garantizar la inocuidad para los seres humanos. Normalmente, estos estudios son llevados a cabo por organismos internacionales como el comité mixto de la FAO y OMS o la OCDE.
     
 
     Separador
@@ -196,7 +196,7 @@
             h4 Absorción
             p Cuando ingresa el tóxico en el organismo este se ve obligado a atravesar las membranas biológicas que son básicamente hidrófobas y muy liposolubles, lo que hace que sean atravesadas por sustancias lipídicas o grasas y no por sustancias hidrosolubles o ionizadas. 
             p Las sustancias atraviesan las membranas celulares por dos procesos fundamentales: Difusión (movimientos libres al azar producidos por moción cinética) y transporte activo (movimiento de las sustancias combinadas químicamente en la membrana con productos transportadores). La mayoría de las sustancias extrañas liposolubles se trasladan por difusión simple a través de las membranas hacia la bicapa lipídica. 
-            p Otro mecanismo de transferencia del tóxico es atravesando la membrana mediante la filtración a través de los poros y la pinocitosis. Muchos iones disueltos en agua y ciertas sustancias hidrosolubles de pequeño peso molecular se expanden a través de los poros acuosos de la membrana celular. La velocidad de difusión de una sustancia a través de una membrana viene determinada por el tamaño o peso molecular, a mayor peso molecular mayor dificultad de penetrar. Por su forma, cuando el tóxico está dividido en partículas muy pequeñas tiene mayor facilidad de absorción; por su grado de ionización, donde las formas no ionizadas son las más liposolubles. Finalmente, por su liposolubilidad, que es una característica propia de cada sustancia y entre más liposoluble más fácilmente penetrará.       
+            p Otro mecanismo de transferencia del tóxico es atravesando la membrana mediante la filtración a través de los poros y la pinocitosis. Muchos iones disueltos en agua y ciertas sustancias hidrosolubles de pequeño peso molecular se expanden a través de los poros acuosos de la membrana celular. La velocidad de difusión de una sustancia a través de una membrana viene determinada por el tamaño o peso molecular, a mayor peso molecular, mayor dificultad de penetrar. Por su forma, cuando el tóxico está dividido en partículas muy pequeñas, tiene mayor facilidad de absorción; por su grado de ionización, donde las formas no ionizadas son las más liposolubles. Finalmente, por su liposolubilidad, que es una característica propia de cada sustancia y entre más liposoluble, más fácilmente penetrará.       
           .col-lg-3
             img(src='@/assets/curso/temas/t1/slyder1.png', alt='')
         .row.justify-content-center.align-items-center
@@ -234,7 +234,7 @@
         img(src='@/assets/curso/temas/t1/img11.png', alt='')
       .col-lg-7.ps-lg-0
         .bg1.p-4.h-100.d-flex.align-items-center
-          p Esta fase hace referencia a la interacción de tóxicos electrofílicos a nivel molecular con los receptores específicos o biomoléculas nucleófilas (proteínas, ácidos nucleicos, entre otros), mediante enlace covalente, que se da por variaciones bioquímicas, fisiológicas y/o estructurales que finalmente se manifiestan como un conjunto de síntomas que conforman el cuadro clínico de la intoxicación. Por tal razón en los diferentes mecanismos de los tóxicos se incluyen alteraciones de diversos tipos como son nivel de metabolismos esenciales, de actividades enzimáticas, a nivel del material genético y generación de intermediarios.
+          p Esta fase hace referencia a la interacción de tóxicos electrofílicos a nivel molecular con los receptores específicos o biomoléculas nucleófilas (proteínas, ácidos nucleicos, entre otros), mediante enlace covalente, que se da por variaciones bioquímicas, fisiológicas y/o estructurales que finalmente se manifiestan como un conjunto de síntomas que conforman el cuadro clínico de la intoxicación. Por tal razón, en los diferentes mecanismos de los tóxicos se incluyen alteraciones de diversos tipos como son nivel de metabolismos esenciales, de actividades enzimáticas, a nivel del material genético y generación de intermediarios.
     
 
     Separador
@@ -391,17 +391,17 @@
             ul.lista-ul--color.fa-ul.color-secundario.mb-0
               li.mb-1
                 i.fas.fa-check-circle
-                | Sustancias de naturaleza protéica muy específicas como inhibidores de proteasas y amilasas.
+                | Sustancias de naturaleza proteica muy específicas como inhibidores de proteasas y amilasas.
               li.mb-0 
                 i.fas.fa-check-circle
                 | Compuestos de procedencia polifenólica presentes taninos que desnaturalizan enzimas digestivas.
     
-    p.mb-4 Las proteasas son enzimas que hidrolizan los enlaces peptídicos de las proteínas y péptidos permitiendo así su asimilación. Los inhibidores de proteasa, se encuentran tanto en productos vegetales como en los de origen animal. Se localizan en numerosas variedades de leguminosas, en cacahuetes, patata, batata, y también en los huevos (ovomucoide y ocoinhibidor), en el calostro y la leche.
+    p.mb-4 Las proteasas son enzimas que hidrolizan los enlaces peptídicos de las proteínas y péptidos, permitiendo así su asimilación. Los inhibidores de proteasa, se encuentran tanto en productos vegetales como en los de origen animal. Se localizan en numerosas variedades de leguminosas, en cacahuetes, patata, batata, y también en los huevos (ovomucoide y ocoinhibidor), en el calostro y la leche.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
       .col-lg-8
         .cajon.color-primario.p-4.mb-5.bg1
-          p.mb-0 Uno de los inhibidores de más importancia es la tripsina que se encuentra en la soja. Los procesos térmicos normales de trasformación, desnaturalizan las proteínas de los vegetales y por lo tanto su efecto inhibidor. Por esta razón no suele producir ningún efecto, pero suele quedar un valor residual inhibidor del 5 al 20 % cuya significación toxicológica se desconoce en la actualidad, como se presenta en la tabla 2.
+          p.mb-0 Uno de los inhibidores de más importancia es la tripsina, que se encuentra en la soja. Los procesos térmicos normales de trasformación, desnaturalizan las proteínas de los vegetales y por lo tanto, su efecto inhibidor. Por esta razón no suele producir ningún efecto, pero suele quedar un valor residual inhibidor del 5 al 20 % cuya significación toxicológica se desconoce en la actualidad, como se presenta en la tabla 2.
         .titulo-sexto.color-acento-contenido
           h5 Tabla 2. 
           span Inhibidores de proteasas presentes en alimentos
@@ -468,13 +468,13 @@
           .col-lg-11.mb-4.mb-md-0
             h4 Tiaminasa
             p Está presente en animales como peces, moluscos, crustáceos y en vegetales como coles de bruselas, espinacas, remolacha, semillas de mostaza, fresas, café, té, entre otros. El efecto de la tiaminasa ha sido atribuido a la presencia de una serie de sustancias con estructura química variada, pero derivada de los hidroxifenoles. 
-            p Entre estos compuestos hay que señalar el ácido clorogénico presente en los granos verdes de café o el metilsinapato en las semillas de mostaza. El mecanismo de inactivación de la tiamina (vitamina B1) por parte de estos compuestos requiere oxígeno y es dependiente de la temperatura y del pH, siendo una reacción de oxido-reducción. La tiaminasa es termolábil, por ello se inactiva por cocción. Esta sustancia es la causante de muchos casos de parálisis y perturbaciones neurológicas.
+            p Entre estos compuestos hay que señalar el ácido clorogénico presente en los granos verdes de café o el metilsinapato en las semillas de mostaza. El mecanismo de inactivación de la tiamina (vitamina B1) por parte de estos compuestos requiere oxígeno y es dependiente de la temperatura y del pH, siendo una reacción de óxido-reducción. La tiaminasa es termolábil, por ello se inactiva por cocción. Esta sustancia es la causante de muchos casos de parálisis y perturbaciones neurológicas.
             img(src='@/assets/curso/temas/t1/slid3.png', alt='')
         .row.justify-content-center.align-items-center
           .col-lg-11.mb-4.mb-md-0
             h4 Niacitina
-            p Se trata de una sustancia que se encuentra en el maíz. Es un precursor del ácido nicotínico o niacina (vitamina B3). En este compuesto el ácido se encuentra fuertemente acomplejado unido a un polipétido. Este complejo es resistente a las enzimas digestivas con lo que se impide la asimilación de la niacina.
-            p Sólo se libera tras la acción alcalina, de ahí que en países con dietas basadas casi exclusivamente en maíz como el caso de México, el cual utiliza una gran cantidad de maíz para hacer las “tortillas” típicas, tengan que tratar este producto con cal durante un tiempo para que se libere la niacina. La deficiencia de niacina produce pelagra que está asociada a alteraciones del sistema nervioso, trastornos digestivos, fatiga y problemas de piel. Esta antivitamina es inactivada por el calor.
+            p Se trata de una sustancia que se encuentra en el maíz. Es un precursor del ácido nicotínico o niacina (vitamina B3). En este compuesto el ácido se encuentra fuertemente acomplejado unido a un polipétido. Este complejo es resistente a las enzimas digestivas, con lo que se impide la asimilación de la niacina.
+            p Solo se libera tras la acción alcalina, de ahí que en países con dietas basadas casi exclusivamente en maíz, como el caso de México, el cual utiliza una gran cantidad de maíz para hacer las “tortillas” típicas, tengan que tratar este producto con cal durante un tiempo para que se libere la niacina. La deficiencia de niacina produce pelagra que está asociada a alteraciones del sistema nervioso, trastornos digestivos, fatiga y problemas de piel. Esta antivitamina es inactivada por el calor.
             img(src='@/assets/curso/temas/t1/slid4.png', alt='')
         .row.justify-content-center
           .col-lg-7
@@ -502,8 +502,8 @@
           .col-lg-6
             h4 Ácido fítico
             p Este ácido impide la absorción de calcio, magnesio, hierro, cobre y zinc, además de afectar la utilización proteica por la formación de complejos insolubles. Se encuentra especialmente en cereales, leguminosas y semillas oleaginosas, trigo, maíz, arroz, avena, lenteja, soja, cacahuete y nuez. En los cereales se halla en la parte exterior, que es donde está su gran contenido en fitatos, por ejemplo, en productos como el salvado, harinas, pan y pastas. 
-            p Se han registrado casos de retrasos en el crecimiento y maduración sexual en niños cuya dieta se basa fundamentalmente en la ingesta de pan integral total. No obstante, la reducción en la biodisponibilidad mineral se puede contrarrestar en cierta medida incrementando la ingesta de minerales esenciales y gracias al aporte suficiente de mineral existente en la mayor parte de semillas.
-            p En muchos alimentos, los niveles de fitatos pueden ser reducidos por la enzima fosfatasa, que se encuentra presente en los alimentos ricos en ácido fítico con mayor o menor actividad. Gracias a la actividad de esta enzima el ácido se hidroliza liberándose inositol y fosfato orgánico. Esta enzima presenta una actividad máxima a pH 5,5 y 60 °C, con lo cual el tratamiento del alimento con ácido y/o calor favorece su hidrólisis, y gracias a ello el contenido de este ácido se reduce drásticamente durante el proceso de cocción. Las fitasas son inhibidas por cocción a más de 60 °C,por fermentación del pan con levadura química (bicarbonato) que provoca aumento de pH y por la germinación.
+            p Se han registrado casos de retrasos en el crecimiento y maduración sexual en niños cuya dieta se basa fundamentalmente en la ingesta de pan integral total. No obstante, la reducción en la biodisponibilidad mineral se puede contrarrestar en cierta medida, incrementando la ingesta de minerales esenciales y gracias al aporte suficiente de mineral existente en la mayor parte de semillas.
+            p En muchos alimentos, los niveles de fitatos pueden ser reducidos por la enzima fosfatasa, que se encuentra presente en los alimentos ricos en ácido fítico con mayor o menor actividad. Gracias a la actividad de esta enzima, el ácido se hidroliza liberándose inositol y fosfato orgánico. Esta enzima presenta una actividad máxima a pH 5,5 y 60 °C, con lo cual el tratamiento del alimento con ácido y/o calor favorece su hidrólisis, y gracias a ello el contenido de este ácido se reduce drásticamente durante el proceso de cocción. Las fitasas son inhibidas por cocción a más de 60 °C,por fermentación del pan con levadura química (bicarbonato) que provoca aumento de pH y por la germinación.
           .col-lg-5
             .tarjeta.bg10.p-4.py-lg-5.mb-4
               p.mb-0 Por otra parte, el ácido fítico tiene algunos efectos beneficiosos para el organismo, tales como:
